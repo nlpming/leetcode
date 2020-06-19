@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenzhiming/Documents/OneDrive/leetcode-c++/sort_algorithm.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+
