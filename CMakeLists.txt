@@ -6,7 +6,7 @@ include_directories(./include)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leetcode-c++ test/example_3.cpp)
+add_executable(leetcode-c++ test/heap.cpp)
 #add_executable(workspace sort_algorithm.cpp)
 
 

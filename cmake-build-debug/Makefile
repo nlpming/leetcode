@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-test/example_3.o: test/example_3.cpp.o
+test/heap.o: test/heap.cpp.o
 
-.PHONY : test/example_3.o
+.PHONY : test/heap.o
 
 # target to build an object file
-test/example_3.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o
-.PHONY : test/example_3.cpp.o
+test/heap.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap.cpp.o
+.PHONY : test/heap.cpp.o
 
-test/example_3.i: test/example_3.cpp.i
+test/heap.i: test/heap.cpp.i
 
-.PHONY : test/example_3.i
+.PHONY : test/heap.i
 
 # target to preprocess a source file
-test/example_3.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/example_3.cpp.i
-.PHONY : test/example_3.cpp.i
+test/heap.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap.cpp.i
+.PHONY : test/heap.cpp.i
 
-test/example_3.s: test/example_3.cpp.s
+test/heap.s: test/heap.cpp.s
 
-.PHONY : test/example_3.s
+.PHONY : test/heap.s
 
 # target to generate assembly for a file
-test/example_3.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/example_3.cpp.s
-.PHONY : test/example_3.cpp.s
+test/heap.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap.cpp.s
+.PHONY : test/heap.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... test/example_3.o"
-	@echo "... test/example_3.i"
-	@echo "... test/example_3.s"
+	@echo "... test/heap.o"
+	@echo "... test/heap.i"
+	@echo "... test/heap.s"
 .PHONY : help
 
 

@@ -57,38 +57,38 @@ include CMakeFiles/leetcode-c++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode-c++.dir/flags.make
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o: ../test/example_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/example_3.cpp
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.o: ../test/heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/test/heap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/test/heap.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/heap.cpp
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/test/example_3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/example_3.cpp > CMakeFiles/leetcode-c++.dir/test/example_3.cpp.i
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/test/heap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/heap.cpp > CMakeFiles/leetcode-c++.dir/test/heap.cpp.i
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/test/example_3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/example_3.cpp -o CMakeFiles/leetcode-c++.dir/test/example_3.cpp.s
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/test/heap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/heap.cpp -o CMakeFiles/leetcode-c++.dir/test/heap.cpp.s
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.requires:
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.requires:
 
-.PHONY : CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.requires
+.PHONY : CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.requires
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.provides: CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.requires
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.provides.build
-.PHONY : CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.provides
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.provides: CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.provides.build
+.PHONY : CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.provides
 
-CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.provides.build: CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o
+CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.provides.build: CMakeFiles/leetcode-c++.dir/test/heap.cpp.o
 
 
 # Object files for target leetcode-c++
 leetcode__c_______OBJECTS = \
-"CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o"
+"CMakeFiles/leetcode-c++.dir/test/heap.cpp.o"
 
 # External object files for target leetcode-c++
 leetcode__c_______EXTERNAL_OBJECTS =
 
-leetcode-c++: CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o
+leetcode-c++: CMakeFiles/leetcode-c++.dir/test/heap.cpp.o
 leetcode-c++: CMakeFiles/leetcode-c++.dir/build.make
 leetcode-c++: CMakeFiles/leetcode-c++.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode-c++"
@@ -99,7 +99,7 @@ CMakeFiles/leetcode-c++.dir/build: leetcode-c++
 
 .PHONY : CMakeFiles/leetcode-c++.dir/build
 
-CMakeFiles/leetcode-c++.dir/requires: CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o.requires
+CMakeFiles/leetcode-c++.dir/requires: CMakeFiles/leetcode-c++.dir/test/heap.cpp.o.requires
 
 .PHONY : CMakeFiles/leetcode-c++.dir/requires
 

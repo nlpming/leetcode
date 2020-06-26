@@ -78,7 +78,7 @@ int main() {
     adjustHeap(nums, 0, nums.size());
     printVector(nums);
 
-//    printVector(heapSort(nums));
+    printVector(heapSort(nums));
 
     return 0;
 }
