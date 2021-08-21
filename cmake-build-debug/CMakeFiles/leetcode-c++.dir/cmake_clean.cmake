@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/test/heap.cpp.o"
-  "leetcode-c++.pdb"
+  "CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.o"
   "leetcode-c++"
+  "leetcode-c++.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

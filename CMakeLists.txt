@@ -6,7 +6,12 @@ include_directories(./include)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leetcode-c++ test/heap.cpp)
-#add_executable(workspace sort_algorithm.cpp)
+#add_executable(leetcode-c++ sort_algorithm/merge_sort.cpp)
+
+#add_executable(leetcode-c++ array_problem/vector.cpp)
+
+add_executable(leetcode-c++ array_problem/704_binary_search.cpp)
+
+
 
 

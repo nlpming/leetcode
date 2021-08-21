@@ -6,31 +6,9 @@
 
 #IncludeRegexTransform: 
 
-.././include/print.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/array_problem/binary_search.cpp
 iostream
 -
 vector
 -
-map
--
-set
--
-stack
--
-queue
--
-unordered_set
--
-unordered_map
--
-
-/Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/heap.cpp
-iostream
--
-vector
--
-algorithm
--
-print.h
-/Users/chenzhiming/Documents/OneDrive/leetcode-c++/test/print.h
 
