@@ -13,134 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_11.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_125.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_143.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_15.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_16.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_167.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_18.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_202.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_209.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_215.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_217.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_220.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_242.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_26.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_27.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_283.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_344.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_345.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_349.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_350.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_438.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_50.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_7.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_75.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_80.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/example_88.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_search.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/array_problem/example_4.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/array_problem/example_7.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/dynamic_programming/example_62_2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/example_148.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/knapsack01.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/sort_algorithm.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_1.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_148.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_20.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_203.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_209.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_215.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_283.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_3.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_438.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/example_50.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/heap.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/workspace.dir/sort_algorithm.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapsack01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/knapsack01.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/priority_queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/priority_queue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort_algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithm/sort_algorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/binary_search.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_102.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_104.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_112.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_113.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_144.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_148.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_15.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_167.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_17.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_19.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_20.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_203.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_206.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_209.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_215.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_219.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_226.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_24.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_257.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_283.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_347.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_438.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_46.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_50.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_75.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_78.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/example_88.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/heap.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/merge_sort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/quick_sort.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +110,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="7175000" />
+      <workItem from="1629516334057" duration="13103000" />
     </task>
     <servers />
   </component>
@@ -254,25 +126,29 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1870" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629516388331" />
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom" timestamp="1629528716297">
+    <state width="1878" height="164" key="GridCell.Tab.0.bottom" timestamp="1629530017072">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629528716297" />
-    <state width="1878" height="164" key="GridCell.Tab.0.center" timestamp="1629528716296">
+    <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017072" />
+    <state width="1878" height="164" key="GridCell.Tab.0.center" timestamp="1629530017070">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629528716296" />
-    <state width="1878" height="164" key="GridCell.Tab.0.left" timestamp="1629528716295">
+    <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017070" />
+    <state width="1878" height="164" key="GridCell.Tab.0.left" timestamp="1629530017068">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629528716295" />
-    <state width="1878" height="164" key="GridCell.Tab.0.right" timestamp="1629528716297">
+    <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017068" />
+    <state width="1878" height="164" key="GridCell.Tab.0.right" timestamp="1629530017070">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629528716297" />
+    <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017070" />
     <state x="1909" y="176" key="SettingsEditor" timestamp="1629516620852">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1909" y="176" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629516620852" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629551567548">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629551567548" />
   </component>
 </project>
