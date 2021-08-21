@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )

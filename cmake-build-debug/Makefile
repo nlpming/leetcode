@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-array_problem/704_binary_search.o: array_problem/704_binary_search.cpp.o
+sort_algorithm/quick_sort.o: sort_algorithm/quick_sort.cpp.o
 
-.PHONY : array_problem/704_binary_search.o
+.PHONY : sort_algorithm/quick_sort.o
 
 # target to build an object file
-array_problem/704_binary_search.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.o
-.PHONY : array_problem/704_binary_search.cpp.o
+sort_algorithm/quick_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.o
+.PHONY : sort_algorithm/quick_sort.cpp.o
 
-array_problem/704_binary_search.i: array_problem/704_binary_search.cpp.i
+sort_algorithm/quick_sort.i: sort_algorithm/quick_sort.cpp.i
 
-.PHONY : array_problem/704_binary_search.i
+.PHONY : sort_algorithm/quick_sort.i
 
 # target to preprocess a source file
-array_problem/704_binary_search.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.i
-.PHONY : array_problem/704_binary_search.cpp.i
+sort_algorithm/quick_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.i
+.PHONY : sort_algorithm/quick_sort.cpp.i
 
-array_problem/704_binary_search.s: array_problem/704_binary_search.cpp.s
+sort_algorithm/quick_sort.s: sort_algorithm/quick_sort.cpp.s
 
-.PHONY : array_problem/704_binary_search.s
+.PHONY : sort_algorithm/quick_sort.s
 
 # target to generate assembly for a file
-array_problem/704_binary_search.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.s
-.PHONY : array_problem/704_binary_search.cpp.s
+sort_algorithm/quick_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.s
+.PHONY : sort_algorithm/quick_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... array_problem/704_binary_search.o"
-	@echo "... array_problem/704_binary_search.i"
-	@echo "... array_problem/704_binary_search.s"
+	@echo "... sort_algorithm/quick_sort.o"
+	@echo "... sort_algorithm/quick_sort.i"
+	@echo "... sort_algorithm/quick_sort.s"
 .PHONY : help
 
 

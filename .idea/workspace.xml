@@ -13,6 +13,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/75[not]_sort-colors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/75[not]_sort-colors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/array_problem/binary_search.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_algorithm/quick_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithm/quick_sort.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +55,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -110,7 +124,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="13103000" />
+      <workItem from="1629516334057" duration="16582000" />
     </task>
     <servers />
   </component>
@@ -126,26 +140,30 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1870" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629516388331" />
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom" timestamp="1629530017072">
+    <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629560033740">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017072" />
-    <state width="1878" height="164" key="GridCell.Tab.0.center" timestamp="1629530017070">
+    <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560033740" />
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1629560474218">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017070" />
-    <state width="1878" height="164" key="GridCell.Tab.0.left" timestamp="1629530017068">
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560474218" />
+    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1629560474217">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017068" />
-    <state width="1878" height="164" key="GridCell.Tab.0.right" timestamp="1629530017070">
+    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560474217" />
+    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1629560474215">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629530017070" />
-    <state x="1909" y="176" key="SettingsEditor" timestamp="1629516620852">
+    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560474215" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1629560474218">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1909" y="176" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629516620852" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560474218" />
+    <state x="1799" y="117" key="SettingsEditor" timestamp="1629556593380">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1799" y="117" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629556593380" />
     <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629551567548">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
