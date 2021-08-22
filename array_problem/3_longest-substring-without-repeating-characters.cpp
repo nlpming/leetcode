@@ -14,6 +14,7 @@ public:
         // 1. record用于记录(left, right]中的元素；
         // 2. 循环终止条件为：left <= right，此时record为空；
         // 3. unordered_set中插入元素insert，删除元素erase；
+        // 4. unordered_set查找一个元素是否存在cout，如果存在返回1；否则返回0；
 
         while(left <= right){ //NOTE: 注意此处终止条件；left == right表示滑动窗口中元素为空；
             if(right+1 < s.length() && !record.count(s[right+1])){
