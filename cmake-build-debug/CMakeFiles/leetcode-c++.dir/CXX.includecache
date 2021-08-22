@@ -6,29 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/print.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/array_problem/209_minimum-size-subarray-sum.cpp
 iostream
 -
 vector
 -
-map
--
-set
--
-stack
--
-queue
--
-unordered_set
--
-unordered_map
--
-
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/quick_sort.cpp
-iostream
--
-vector
--
-print.h
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/print.h
 

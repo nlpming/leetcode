@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-sort_algorithm/quick_sort.o: sort_algorithm/quick_sort.cpp.o
+array_problem/209_minimum-size-subarray-sum.o: array_problem/209_minimum-size-subarray-sum.cpp.o
 
-.PHONY : sort_algorithm/quick_sort.o
+.PHONY : array_problem/209_minimum-size-subarray-sum.o
 
 # target to build an object file
-sort_algorithm/quick_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.o
-.PHONY : sort_algorithm/quick_sort.cpp.o
+array_problem/209_minimum-size-subarray-sum.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.o
+.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.o
 
-sort_algorithm/quick_sort.i: sort_algorithm/quick_sort.cpp.i
+array_problem/209_minimum-size-subarray-sum.i: array_problem/209_minimum-size-subarray-sum.cpp.i
 
-.PHONY : sort_algorithm/quick_sort.i
+.PHONY : array_problem/209_minimum-size-subarray-sum.i
 
 # target to preprocess a source file
-sort_algorithm/quick_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.i
-.PHONY : sort_algorithm/quick_sort.cpp.i
+array_problem/209_minimum-size-subarray-sum.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.i
+.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.i
 
-sort_algorithm/quick_sort.s: sort_algorithm/quick_sort.cpp.s
+array_problem/209_minimum-size-subarray-sum.s: array_problem/209_minimum-size-subarray-sum.cpp.s
 
-.PHONY : sort_algorithm/quick_sort.s
+.PHONY : array_problem/209_minimum-size-subarray-sum.s
 
 # target to generate assembly for a file
-sort_algorithm/quick_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/quick_sort.cpp.s
-.PHONY : sort_algorithm/quick_sort.cpp.s
+array_problem/209_minimum-size-subarray-sum.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.s
+.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... sort_algorithm/quick_sort.o"
-	@echo "... sort_algorithm/quick_sort.i"
-	@echo "... sort_algorithm/quick_sort.s"
+	@echo "... array_problem/209_minimum-size-subarray-sum.o"
+	@echo "... array_problem/209_minimum-size-subarray-sum.i"
+	@echo "... array_problem/209_minimum-size-subarray-sum.s"
 .PHONY : help
 
 

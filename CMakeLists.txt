@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(leetcode-c++ array_problem/vector.cpp)
 
-add_executable(leetcode-c++ sort_algorithm/quick_sort.cpp)
+add_executable(leetcode-c++ array_problem/209_minimum-size-subarray-sum.cpp)
 
 
 
