@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-array_problem/209_minimum-size-subarray-sum.o: array_problem/209_minimum-size-subarray-sum.cpp.o
+hash_table/15_3sum.o: hash_table/15_3sum.cpp.o
 
-.PHONY : array_problem/209_minimum-size-subarray-sum.o
+.PHONY : hash_table/15_3sum.o
 
 # target to build an object file
-array_problem/209_minimum-size-subarray-sum.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.o
-.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.o
+hash_table/15_3sum.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.o
+.PHONY : hash_table/15_3sum.cpp.o
 
-array_problem/209_minimum-size-subarray-sum.i: array_problem/209_minimum-size-subarray-sum.cpp.i
+hash_table/15_3sum.i: hash_table/15_3sum.cpp.i
 
-.PHONY : array_problem/209_minimum-size-subarray-sum.i
+.PHONY : hash_table/15_3sum.i
 
 # target to preprocess a source file
-array_problem/209_minimum-size-subarray-sum.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.i
-.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.i
+hash_table/15_3sum.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.i
+.PHONY : hash_table/15_3sum.cpp.i
 
-array_problem/209_minimum-size-subarray-sum.s: array_problem/209_minimum-size-subarray-sum.cpp.s
+hash_table/15_3sum.s: hash_table/15_3sum.cpp.s
 
-.PHONY : array_problem/209_minimum-size-subarray-sum.s
+.PHONY : hash_table/15_3sum.s
 
 # target to generate assembly for a file
-array_problem/209_minimum-size-subarray-sum.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.s
-.PHONY : array_problem/209_minimum-size-subarray-sum.cpp.s
+hash_table/15_3sum.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.s
+.PHONY : hash_table/15_3sum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... array_problem/209_minimum-size-subarray-sum.o"
-	@echo "... array_problem/209_minimum-size-subarray-sum.i"
-	@echo "... array_problem/209_minimum-size-subarray-sum.s"
+	@echo "... hash_table/15_3sum.o"
+	@echo "... hash_table/15_3sum.i"
+	@echo "... hash_table/15_3sum.s"
 .PHONY : help
 
 

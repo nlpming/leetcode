@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/array_problem/209_minimum-size-subarray-sum.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )
