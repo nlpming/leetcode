@@ -17,8 +17,12 @@ public:
     //两数之和: 数组已排好序
     vector<vector<int>> twoSum(vector<int> nums, int cur, int left, int right, int target){
         vector<vector<int>> res;
+        unordered_map<int, int> record; //记录两个数
+
         while(left < right){
             if(nums[left] + nums[right] == target){
+                // 方法一：
+                /*
                 if(left > cur+1 && nums[left] == nums[left-1]){ //NOTE: 此处用于去重；
                     left++;
                     continue;
@@ -28,6 +32,17 @@ public:
                 tmp.push_back(nums[left]);
                 tmp.push_back(nums[right]);
                 res.push_back(tmp);
+                */
+
+                // 方法二：
+                if(record.find(nums[left]) == record.end() && record.find(nums[right]) == record.end()){
+                    vector<int> tmp;
+                    tmp.push_back(nums[left]);
+                    tmp.push_back(nums[right]);
+                    res.push_back(tmp);
+
+                    record[nums[left]] = nums[right];
+                }
 
                 left++;
                 right--;
