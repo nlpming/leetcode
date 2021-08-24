@@ -11,6 +11,7 @@
 /*
  * 考点：滑动窗口 + 哈希表 + lower_bound；
  * 难度：***
+ * 时间复杂度：O(nlogn)
  * */
 class Solution {
 public:
@@ -22,7 +23,7 @@ public:
         record.insert(nums[0]);
 
         while(right+1 < nums.size()){
-            //NOTE: 是否能够找到一个元素v满足条件：x-t <= v <= x+t;
+            //NOTE: 是否能够找到一个元素v满足条件：x-t <= v <= x+t;【注意整形越界问题】
             long low_data = long(nums[right+1]) - t;
             long upper_data = long(nums[right+1]) + t;
 
