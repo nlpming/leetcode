@@ -12,24 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_147.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_148.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_19.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_203.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_206.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_21.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_234.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_237.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_24.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_328.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_445.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_61.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_82.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_83.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_86.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/example_92.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +110,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="53294000" />
+      <workItem from="1629516334057" duration="53480000" />
     </task>
     <servers />
   </component>
