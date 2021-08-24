@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/hash_table/16_3sum-closest.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )

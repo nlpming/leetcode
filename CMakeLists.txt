@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(leetcode-c++ array_problem/vector.cpp)
 
-add_executable(leetcode-c++ hash_table/15_3sum.cpp)
+add_executable(leetcode-c++ hash_table/16_3sum-closest.cpp)
 
 
 

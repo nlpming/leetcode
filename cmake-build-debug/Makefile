@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-hash_table/15_3sum.o: hash_table/15_3sum.cpp.o
+hash_table/16_3sum-closest.o: hash_table/16_3sum-closest.cpp.o
 
-.PHONY : hash_table/15_3sum.o
+.PHONY : hash_table/16_3sum-closest.o
 
 # target to build an object file
-hash_table/15_3sum.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.o
-.PHONY : hash_table/15_3sum.cpp.o
+hash_table/16_3sum-closest.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/16_3sum-closest.cpp.o
+.PHONY : hash_table/16_3sum-closest.cpp.o
 
-hash_table/15_3sum.i: hash_table/15_3sum.cpp.i
+hash_table/16_3sum-closest.i: hash_table/16_3sum-closest.cpp.i
 
-.PHONY : hash_table/15_3sum.i
+.PHONY : hash_table/16_3sum-closest.i
 
 # target to preprocess a source file
-hash_table/15_3sum.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.i
-.PHONY : hash_table/15_3sum.cpp.i
+hash_table/16_3sum-closest.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/16_3sum-closest.cpp.i
+.PHONY : hash_table/16_3sum-closest.cpp.i
 
-hash_table/15_3sum.s: hash_table/15_3sum.cpp.s
+hash_table/16_3sum-closest.s: hash_table/16_3sum-closest.cpp.s
 
-.PHONY : hash_table/15_3sum.s
+.PHONY : hash_table/16_3sum-closest.s
 
 # target to generate assembly for a file
-hash_table/15_3sum.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/15_3sum.cpp.s
-.PHONY : hash_table/15_3sum.cpp.s
+hash_table/16_3sum-closest.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/hash_table/16_3sum-closest.cpp.s
+.PHONY : hash_table/16_3sum-closest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... hash_table/15_3sum.o"
-	@echo "... hash_table/15_3sum.i"
-	@echo "... hash_table/15_3sum.s"
+	@echo "... hash_table/16_3sum-closest.o"
+	@echo "... hash_table/16_3sum-closest.i"
+	@echo "... hash_table/16_3sum-closest.s"
 .PHONY : help
 
 
