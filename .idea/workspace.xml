@@ -13,8 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/328_odd-even-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/328[not]_odd-even-linked-list.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="58165000" />
+      <workItem from="1629516334057" duration="60565000" />
     </task>
     <servers />
   </component>
