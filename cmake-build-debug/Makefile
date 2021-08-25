@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-link_list/148_sort-list.o: link_list/148_sort-list.cpp.o
+link_list/143[not]_reorder-list.o: link_list/143[not]_reorder-list.cpp.o
 
-.PHONY : link_list/148_sort-list.o
+.PHONY : link_list/143[not]_reorder-list.o
 
 # target to build an object file
-link_list/148_sort-list.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o
-.PHONY : link_list/148_sort-list.cpp.o
+link_list/143[not]_reorder-list.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.o
+.PHONY : link_list/143[not]_reorder-list.cpp.o
 
-link_list/148_sort-list.i: link_list/148_sort-list.cpp.i
+link_list/143[not]_reorder-list.i: link_list/143[not]_reorder-list.cpp.i
 
-.PHONY : link_list/148_sort-list.i
+.PHONY : link_list/143[not]_reorder-list.i
 
 # target to preprocess a source file
-link_list/148_sort-list.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.i
-.PHONY : link_list/148_sort-list.cpp.i
+link_list/143[not]_reorder-list.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.i
+.PHONY : link_list/143[not]_reorder-list.cpp.i
 
-link_list/148_sort-list.s: link_list/148_sort-list.cpp.s
+link_list/143[not]_reorder-list.s: link_list/143[not]_reorder-list.cpp.s
 
-.PHONY : link_list/148_sort-list.s
+.PHONY : link_list/143[not]_reorder-list.s
 
 # target to generate assembly for a file
-link_list/148_sort-list.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.s
-.PHONY : link_list/148_sort-list.cpp.s
+link_list/143[not]_reorder-list.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.s
+.PHONY : link_list/143[not]_reorder-list.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... link_list/148_sort-list.o"
-	@echo "... link_list/148_sort-list.i"
-	@echo "... link_list/148_sort-list.s"
+	@echo "... link_list/143[not]_reorder-list.o"
+	@echo "... link_list/143[not]_reorder-list.i"
+	@echo "... link_list/143[not]_reorder-list.s"
 .PHONY : help
 
 

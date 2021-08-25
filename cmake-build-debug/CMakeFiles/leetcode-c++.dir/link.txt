@@ -1,1 +1,1 @@
-/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o  -o leetcode-c++ 
+/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.o  -o leetcode-c++ 
