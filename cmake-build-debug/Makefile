@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-link_list/143[not]_reorder-list.o: link_list/143[not]_reorder-list.cpp.o
+stack_and_queue/71[not]_simplify-path.o: stack_and_queue/71[not]_simplify-path.cpp.o
 
-.PHONY : link_list/143[not]_reorder-list.o
+.PHONY : stack_and_queue/71[not]_simplify-path.o
 
 # target to build an object file
-link_list/143[not]_reorder-list.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.o
-.PHONY : link_list/143[not]_reorder-list.cpp.o
+stack_and_queue/71[not]_simplify-path.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.o
+.PHONY : stack_and_queue/71[not]_simplify-path.cpp.o
 
-link_list/143[not]_reorder-list.i: link_list/143[not]_reorder-list.cpp.i
+stack_and_queue/71[not]_simplify-path.i: stack_and_queue/71[not]_simplify-path.cpp.i
 
-.PHONY : link_list/143[not]_reorder-list.i
+.PHONY : stack_and_queue/71[not]_simplify-path.i
 
 # target to preprocess a source file
-link_list/143[not]_reorder-list.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.i
-.PHONY : link_list/143[not]_reorder-list.cpp.i
+stack_and_queue/71[not]_simplify-path.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.i
+.PHONY : stack_and_queue/71[not]_simplify-path.cpp.i
 
-link_list/143[not]_reorder-list.s: link_list/143[not]_reorder-list.cpp.s
+stack_and_queue/71[not]_simplify-path.s: stack_and_queue/71[not]_simplify-path.cpp.s
 
-.PHONY : link_list/143[not]_reorder-list.s
+.PHONY : stack_and_queue/71[not]_simplify-path.s
 
 # target to generate assembly for a file
-link_list/143[not]_reorder-list.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.s
-.PHONY : link_list/143[not]_reorder-list.cpp.s
+stack_and_queue/71[not]_simplify-path.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.s
+.PHONY : stack_and_queue/71[not]_simplify-path.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... link_list/143[not]_reorder-list.o"
-	@echo "... link_list/143[not]_reorder-list.i"
-	@echo "... link_list/143[not]_reorder-list.s"
+	@echo "... stack_and_queue/71[not]_simplify-path.o"
+	@echo "... stack_and_queue/71[not]_simplify-path.i"
+	@echo "... stack_and_queue/71[not]_simplify-path.s"
 .PHONY : help
 
 

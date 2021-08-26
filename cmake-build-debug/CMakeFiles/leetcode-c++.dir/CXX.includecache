@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/link_list.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/71_simplify-path.cpp
 iostream
 -
-cassert
+string
 -
-
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/143_reorder-list.cpp
-iostream
+stack
 -
 vector
 -
-link_list.h
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/link_list.h
 

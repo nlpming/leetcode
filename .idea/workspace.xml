@@ -21,12 +21,16 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link_list/143_reorder-list.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/148_sort-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/148[not]_sort-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_127.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_150.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_23.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_347.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/example_71.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +55,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stack_and_queue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stack_and_queue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stack_and_queue/pics" />
       <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/hash_table/pics" />
       <recent name="$PROJECT_DIR$/array_problem" />
       <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.leetcode-c++">
@@ -124,7 +131,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="75948000" />
+      <workItem from="1629516334057" duration="86091000" />
     </task>
     <servers />
   </component>
@@ -144,45 +151,45 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560033740" />
-    <state width="1878" height="331" key="GridCell.Tab.0.bottom" timestamp="1629907067295">
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1629986122932">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067295" />
-    <state width="1878" height="331" key="GridCell.Tab.0.center" timestamp="1629907067294">
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629986122932" />
+    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1629986122931">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067294" />
-    <state width="1878" height="331" key="GridCell.Tab.0.left" timestamp="1629907067292">
+    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629986122931" />
+    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1629986122930">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067292" />
-    <state width="1878" height="331" key="GridCell.Tab.0.right" timestamp="1629907067295">
+    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629986122930" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1629986122931">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067295" />
-    <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1629907067298">
+    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629986122931" />
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1629983393670">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067298" />
-    <state width="1878" height="331" key="GridCell.Tab.1.center" timestamp="1629907067296">
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629983393670" />
+    <state width="1878" height="331" key="GridCell.Tab.1.center" timestamp="1629983393669">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067296" />
-    <state width="1878" height="331" key="GridCell.Tab.1.left" timestamp="1629907067296">
+    <state width="1878" height="331" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629983393669" />
+    <state width="1878" height="331" key="GridCell.Tab.1.left" timestamp="1629983393669">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067296" />
-    <state width="1878" height="331" key="GridCell.Tab.1.right" timestamp="1629907067298">
+    <state width="1878" height="331" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629983393669" />
+    <state width="1878" height="331" key="GridCell.Tab.1.right" timestamp="1629983393670">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629907067298" />
+    <state width="1878" height="331" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629983393670" />
     <state x="1799" y="117" key="SettingsEditor" timestamp="1629556593380">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1799" y="117" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629556593380" />
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629905717013">
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629987323966">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629905717013" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629987323966" />
   </component>
 </project>

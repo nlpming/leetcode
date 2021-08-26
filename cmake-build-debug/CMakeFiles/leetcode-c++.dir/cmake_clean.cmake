@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/link_list/143[not]_reorder-list.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )
