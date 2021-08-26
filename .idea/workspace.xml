@@ -13,7 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/144_binary-tree-preorder-traversal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/144_binary-tree-preorder-traversal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stack_and_queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/pics/QQ20210826-222338.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="86234000" />
+      <workItem from="1629516334057" duration="89245000" />
     </task>
     <servers />
   </component>
@@ -130,10 +132,11 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1870" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629516388331" />
-    <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629560033740">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629989733160">
+      <screen x="1440" y="25" width="1920" height="1000" />
     </state>
     <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560033740" />
+    <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/1440.25.1920.1000@1440.25.1920.1000" timestamp="1629989733160" />
     <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1629986122932">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -170,9 +173,9 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1799" y="117" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629556593380" />
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629987323966">
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1629990565794">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629987323966" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629990565794" />
   </component>
 </project>

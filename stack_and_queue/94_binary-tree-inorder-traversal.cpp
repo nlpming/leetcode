@@ -5,16 +5,17 @@
 class Solution {
 public:
     vector<int> res;
+
     void process(TreeNode *root){
         if(root != NULL){
-            res.push_back(root->val);
             process(root->left);
+            res.push_back(root->val);
             process(root->right);
         }
     }
 
-    //方法一：递归实现；
-    vector<int> preorderTraversal_one(TreeNode* root) {
+    //方法一: 递归实现；
+    vector<int> inorderTraversal_one(TreeNode* root) {
         process(root);
         return res;
     }
@@ -27,7 +28,7 @@ public:
     };
 
     //方法二：使用栈，实现非递归；
-    vector<int> preorderTraversal(TreeNode* root) {
+    vector<int> inorderTraversal(TreeNode* root) {
         stack<Cmd> record;
         if(root == NULL) return res;
 
@@ -42,9 +43,11 @@ public:
             }else{
                 if(cmd.node->right != NULL)
                     record.push(Cmd("go", cmd.node->right));
+
+                record.push(Cmd("print", cmd.node));
+
                 if(cmd.node->left != NULL)
                     record.push(Cmd("go", cmd.node->left));
-                record.push(Cmd("print", cmd.node));
             }
         }
 
