@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )

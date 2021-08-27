@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-stack_and_queue/127_word-ladder.o: stack_and_queue/127_word-ladder.cpp.o
+test/heap_sort.o: test/heap_sort.cpp.o
 
-.PHONY : stack_and_queue/127_word-ladder.o
+.PHONY : test/heap_sort.o
 
 # target to build an object file
-stack_and_queue/127_word-ladder.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o
-.PHONY : stack_and_queue/127_word-ladder.cpp.o
+test/heap_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.o
+.PHONY : test/heap_sort.cpp.o
 
-stack_and_queue/127_word-ladder.i: stack_and_queue/127_word-ladder.cpp.i
+test/heap_sort.i: test/heap_sort.cpp.i
 
-.PHONY : stack_and_queue/127_word-ladder.i
+.PHONY : test/heap_sort.i
 
 # target to preprocess a source file
-stack_and_queue/127_word-ladder.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i
-.PHONY : stack_and_queue/127_word-ladder.cpp.i
+test/heap_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.i
+.PHONY : test/heap_sort.cpp.i
 
-stack_and_queue/127_word-ladder.s: stack_and_queue/127_word-ladder.cpp.s
+test/heap_sort.s: test/heap_sort.cpp.s
 
-.PHONY : stack_and_queue/127_word-ladder.s
+.PHONY : test/heap_sort.s
 
 # target to generate assembly for a file
-stack_and_queue/127_word-ladder.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s
-.PHONY : stack_and_queue/127_word-ladder.cpp.s
+test/heap_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.s
+.PHONY : test/heap_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... stack_and_queue/127_word-ladder.o"
-	@echo "... stack_and_queue/127_word-ladder.i"
-	@echo "... stack_and_queue/127_word-ladder.s"
+	@echo "... test/heap_sort.o"
+	@echo "... test/heap_sort.i"
+	@echo "... test/heap_sort.s"
 .PHONY : help
 
 
