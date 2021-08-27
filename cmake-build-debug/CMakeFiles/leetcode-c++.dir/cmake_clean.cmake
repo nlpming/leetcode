@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )

@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/71_simplify-path.cpp
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/279_perfect-squares.cpp
 iostream
 -
-string
--
-stack
+queue
 -
 vector
 -

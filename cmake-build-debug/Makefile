@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-stack_and_queue/71[not]_simplify-path.o: stack_and_queue/71[not]_simplify-path.cpp.o
+stack_and_queue/279_perfect-squares.o: stack_and_queue/279_perfect-squares.cpp.o
 
-.PHONY : stack_and_queue/71[not]_simplify-path.o
+.PHONY : stack_and_queue/279_perfect-squares.o
 
 # target to build an object file
-stack_and_queue/71[not]_simplify-path.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.o
-.PHONY : stack_and_queue/71[not]_simplify-path.cpp.o
+stack_and_queue/279_perfect-squares.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.o
+.PHONY : stack_and_queue/279_perfect-squares.cpp.o
 
-stack_and_queue/71[not]_simplify-path.i: stack_and_queue/71[not]_simplify-path.cpp.i
+stack_and_queue/279_perfect-squares.i: stack_and_queue/279_perfect-squares.cpp.i
 
-.PHONY : stack_and_queue/71[not]_simplify-path.i
+.PHONY : stack_and_queue/279_perfect-squares.i
 
 # target to preprocess a source file
-stack_and_queue/71[not]_simplify-path.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.i
-.PHONY : stack_and_queue/71[not]_simplify-path.cpp.i
+stack_and_queue/279_perfect-squares.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.i
+.PHONY : stack_and_queue/279_perfect-squares.cpp.i
 
-stack_and_queue/71[not]_simplify-path.s: stack_and_queue/71[not]_simplify-path.cpp.s
+stack_and_queue/279_perfect-squares.s: stack_and_queue/279_perfect-squares.cpp.s
 
-.PHONY : stack_and_queue/71[not]_simplify-path.s
+.PHONY : stack_and_queue/279_perfect-squares.s
 
 # target to generate assembly for a file
-stack_and_queue/71[not]_simplify-path.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/71[not]_simplify-path.cpp.s
-.PHONY : stack_and_queue/71[not]_simplify-path.cpp.s
+stack_and_queue/279_perfect-squares.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.s
+.PHONY : stack_and_queue/279_perfect-squares.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... stack_and_queue/71[not]_simplify-path.o"
-	@echo "... stack_and_queue/71[not]_simplify-path.i"
-	@echo "... stack_and_queue/71[not]_simplify-path.s"
+	@echo "... stack_and_queue/279_perfect-squares.o"
+	@echo "... stack_and_queue/279_perfect-squares.i"
+	@echo "... stack_and_queue/279_perfect-squares.s"
 .PHONY : help
 
 

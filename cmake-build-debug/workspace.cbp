@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/71[not]_simplify-path.cpp">
+		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/279_perfect-squares.cpp">
 			<Option target="leetcode-c++"/>
 		</Unit>
 		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/CMakeLists.txt">
