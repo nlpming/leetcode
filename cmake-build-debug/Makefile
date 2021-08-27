@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-stack_and_queue/279_perfect-squares.o: stack_and_queue/279_perfect-squares.cpp.o
+stack_and_queue/127_word-ladder.o: stack_and_queue/127_word-ladder.cpp.o
 
-.PHONY : stack_and_queue/279_perfect-squares.o
+.PHONY : stack_and_queue/127_word-ladder.o
 
 # target to build an object file
-stack_and_queue/279_perfect-squares.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.o
-.PHONY : stack_and_queue/279_perfect-squares.cpp.o
+stack_and_queue/127_word-ladder.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o
+.PHONY : stack_and_queue/127_word-ladder.cpp.o
 
-stack_and_queue/279_perfect-squares.i: stack_and_queue/279_perfect-squares.cpp.i
+stack_and_queue/127_word-ladder.i: stack_and_queue/127_word-ladder.cpp.i
 
-.PHONY : stack_and_queue/279_perfect-squares.i
+.PHONY : stack_and_queue/127_word-ladder.i
 
 # target to preprocess a source file
-stack_and_queue/279_perfect-squares.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.i
-.PHONY : stack_and_queue/279_perfect-squares.cpp.i
+stack_and_queue/127_word-ladder.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i
+.PHONY : stack_and_queue/127_word-ladder.cpp.i
 
-stack_and_queue/279_perfect-squares.s: stack_and_queue/279_perfect-squares.cpp.s
+stack_and_queue/127_word-ladder.s: stack_and_queue/127_word-ladder.cpp.s
 
-.PHONY : stack_and_queue/279_perfect-squares.s
+.PHONY : stack_and_queue/127_word-ladder.s
 
 # target to generate assembly for a file
-stack_and_queue/279_perfect-squares.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/279_perfect-squares.cpp.s
-.PHONY : stack_and_queue/279_perfect-squares.cpp.s
+stack_and_queue/127_word-ladder.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s
+.PHONY : stack_and_queue/127_word-ladder.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... stack_and_queue/279_perfect-squares.o"
-	@echo "... stack_and_queue/279_perfect-squares.i"
-	@echo "... stack_and_queue/279_perfect-squares.s"
+	@echo "... stack_and_queue/127_word-ladder.o"
+	@echo "... stack_and_queue/127_word-ladder.i"
+	@echo "... stack_and_queue/127_word-ladder.s"
 .PHONY : help
 
 

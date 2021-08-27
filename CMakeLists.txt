@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(leetcode-c++ link_list/143[not]_reorder-list.cpp)
 
-add_executable(leetcode-c++ stack_and_queue/279_perfect-squares.cpp)
+add_executable(leetcode-c++ stack_and_queue/127_word-ladder.cpp)
 
 
 

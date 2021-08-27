@@ -7,11 +7,15 @@
 
 using namespace std;
 
+/*
+ * 考点：广度优先搜索 + 动态规划
+ * 难度：***
+ * */
 class Solution {
 public:
 
     //方法一：广度优先搜索 + 队列 【最短路径】
-    int numSquares1(int n) {
+    int numSquares_one(int n) {
         queue<pair<int, int>> record;
         vector<bool> visited(n, false); //NOTE: 用于记录元素是否被访问；【注意此处容易忽略】
 
