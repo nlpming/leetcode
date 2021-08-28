@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-test/heap_sort.o: test/heap_sort.cpp.o
+test/merge_sort.o: test/merge_sort.cpp.o
 
-.PHONY : test/heap_sort.o
+.PHONY : test/merge_sort.o
 
 # target to build an object file
-test/heap_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.o
-.PHONY : test/heap_sort.cpp.o
+test/merge_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.o
+.PHONY : test/merge_sort.cpp.o
 
-test/heap_sort.i: test/heap_sort.cpp.i
+test/merge_sort.i: test/merge_sort.cpp.i
 
-.PHONY : test/heap_sort.i
+.PHONY : test/merge_sort.i
 
 # target to preprocess a source file
-test/heap_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.i
-.PHONY : test/heap_sort.cpp.i
+test/merge_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.i
+.PHONY : test/merge_sort.cpp.i
 
-test/heap_sort.s: test/heap_sort.cpp.s
+test/merge_sort.s: test/merge_sort.cpp.s
 
-.PHONY : test/heap_sort.s
+.PHONY : test/merge_sort.s
 
 # target to generate assembly for a file
-test/heap_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/heap_sort.cpp.s
-.PHONY : test/heap_sort.cpp.s
+test/merge_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.s
+.PHONY : test/merge_sort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... test/heap_sort.o"
-	@echo "... test/heap_sort.i"
-	@echo "... test/heap_sort.s"
+	@echo "... test/merge_sort.o"
+	@echo "... test/merge_sort.i"
+	@echo "... test/merge_sort.s"
 .PHONY : help
 
 

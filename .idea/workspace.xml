@@ -13,7 +13,40 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort_algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_100.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_101.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_102.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_103.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_104.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_107.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_110.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_111.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_112.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_113.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_129.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_144.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_145.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_199.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_222.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_226.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_257.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_404.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_437.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_tree/example_94.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/127_word-ladder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/127[not]_word-ladder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/23_merge-k-sorted-lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/23[not]_merge-k-sorted-lists.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/347_top-k-frequent-elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/347[not]_top-k-frequent-elements.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +82,11 @@
       <recent name="$PROJECT_DIR$/stack_and_queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/binary_tree/pics" />
       <recent name="$PROJECT_DIR$/sort_algorithm/pics" />
       <recent name="$PROJECT_DIR$/stack_and_queue/pics" />
       <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/hash_table/pics" />
-      <recent name="$PROJECT_DIR$/array_problem" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.leetcode-c++">
@@ -114,7 +147,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="104617000" />
+      <workItem from="1629516334057" duration="116214000" />
     </task>
     <servers />
   </component>
@@ -135,22 +168,22 @@
     </state>
     <state x="2138" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629560033740" />
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/1440.25.1920.1000@1440.25.1920.1000" timestamp="1629989733160" />
-    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1630081106854">
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom" timestamp="1630127881534">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630081106854" />
-    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1630081106852">
+    <state width="1878" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630127881534" />
+    <state width="1878" height="252" key="GridCell.Tab.0.center" timestamp="1630127881532">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630081106852" />
-    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1630081106851">
+    <state width="1878" height="252" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630127881532" />
+    <state width="1878" height="252" key="GridCell.Tab.0.left" timestamp="1630127881530">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630081106851" />
-    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1630081106853">
+    <state width="1878" height="252" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630127881530" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right" timestamp="1630127881533">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630081106853" />
+    <state width="1878" height="252" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630127881533" />
     <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1630073979940">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -175,16 +208,16 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1799" y="117" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1629556593380" />
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1630084743837">
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1630135865128">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630084743837" />
+    <state x="2065" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1630135865128" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/stack_and_queue/127_word-ladder.cpp</url>
+          <url>file://$PROJECT_DIR$/stack_and_queue/127[not]_word-ladder.cpp</url>
           <line>30</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
