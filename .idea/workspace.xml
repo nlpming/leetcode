@@ -13,43 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_120.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_198.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_279.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_279_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_343.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_416.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_62.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_62_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_62_2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_63.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_64.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_70.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_72.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_91.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/example_91_1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/knapsack01.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/leetcode_887.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_131.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_17.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_39.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_46.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_47.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_51.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_77.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_78.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/example_79.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_programming/91_decode-ways.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/91[not]_decode-ways.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +50,11 @@
       <recent name="$PROJECT_DIR$/stack_and_queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic_programming/pics" />
       <recent name="$PROJECT_DIR$/recurion_and_backstracking/pics" />
       <recent name="$PROJECT_DIR$/binary_tree/pics" />
       <recent name="$PROJECT_DIR$/sort_algorithm/pics" />
       <recent name="$PROJECT_DIR$/stack_and_queue/pics" />
-      <recent name="$PROJECT_DIR$/link_list/pics" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.leetcode-c++">
@@ -150,7 +115,7 @@
       <workItem from="1629514692107" duration="53000" />
       <workItem from="1629514823579" duration="865000" />
       <workItem from="1629516070275" duration="71000" />
-      <workItem from="1629516334057" duration="152953000" />
+      <workItem from="1629516334057" duration="155818000" />
     </task>
     <servers />
   </component>
