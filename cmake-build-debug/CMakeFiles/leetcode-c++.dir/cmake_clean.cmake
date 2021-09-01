@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )

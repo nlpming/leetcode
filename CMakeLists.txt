@@ -16,6 +16,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(leetcode-c++ stack_and_queue/127_word-ladder.cpp)
 
-add_executable(leetcode-c++ test/merge_sort.cpp)
+#add_executable(leetcode-c++ test/merge_sort.cpp)
+
+add_executable(leetcode-c++ recurion_and_backstracking/131[not]_palindrome-partitioning.cpp)
 
 

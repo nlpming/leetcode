@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-test/merge_sort.o: test/merge_sort.cpp.o
+recurion_and_backstracking/131[not]_palindrome-partitioning.o: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
 
-.PHONY : test/merge_sort.o
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.o
 
 # target to build an object file
-test/merge_sort.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.o
-.PHONY : test/merge_sort.cpp.o
+recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
 
-test/merge_sort.i: test/merge_sort.cpp.i
+recurion_and_backstracking/131[not]_palindrome-partitioning.i: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
 
-.PHONY : test/merge_sort.i
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.i
 
 # target to preprocess a source file
-test/merge_sort.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.i
-.PHONY : test/merge_sort.cpp.i
+recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
 
-test/merge_sort.s: test/merge_sort.cpp.s
+recurion_and_backstracking/131[not]_palindrome-partitioning.s: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
 
-.PHONY : test/merge_sort.s
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.s
 
 # target to generate assembly for a file
-test/merge_sort.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/test/merge_sort.cpp.s
-.PHONY : test/merge_sort.cpp.s
+recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
+.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... test/merge_sort.o"
-	@echo "... test/merge_sort.i"
-	@echo "... test/merge_sort.s"
+	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.o"
+	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.i"
+	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.s"
 .PHONY : help
 
 
