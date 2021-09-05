@@ -45,11 +45,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/./include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode-c++"/>
@@ -66,11 +66,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/./include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode-c++/fast"/>
@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp">
+		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp">
 			<Option target="leetcode-c++"/>
 		</Unit>
 		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/CMakeLists.txt">

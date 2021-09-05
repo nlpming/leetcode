@@ -6,31 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/print.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp
 iostream
 -
 vector
 -
-map
--
-set
--
-stack
--
-queue
--
-unordered_set
--
-unordered_map
--
-
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/131_palindrome-partitioning.cpp
-iostream
--
-string
--
-vector
--
-print.h
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/print.h
 

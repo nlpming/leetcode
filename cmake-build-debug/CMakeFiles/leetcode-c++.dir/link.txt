@@ -1,1 +1,1 @@
-/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o  -o leetcode-c++ 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o  -o leetcode-c++ 

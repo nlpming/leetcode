@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test.dir/array_problem/test/binary_search.cpp.o  -o test 

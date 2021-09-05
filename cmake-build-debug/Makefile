@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-recurion_and_backstracking/131[not]_palindrome-partitioning.o: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
+dynamic_programming/01_knapsack.o: dynamic_programming/01_knapsack.cpp.o
 
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.o
+.PHONY : dynamic_programming/01_knapsack.o
 
 # target to build an object file
-recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
+dynamic_programming/01_knapsack.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o
+.PHONY : dynamic_programming/01_knapsack.cpp.o
 
-recurion_and_backstracking/131[not]_palindrome-partitioning.i: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
+dynamic_programming/01_knapsack.i: dynamic_programming/01_knapsack.cpp.i
 
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.i
+.PHONY : dynamic_programming/01_knapsack.i
 
 # target to preprocess a source file
-recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
+dynamic_programming/01_knapsack.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.i
+.PHONY : dynamic_programming/01_knapsack.cpp.i
 
-recurion_and_backstracking/131[not]_palindrome-partitioning.s: recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
+dynamic_programming/01_knapsack.s: dynamic_programming/01_knapsack.cpp.s
 
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.s
+.PHONY : dynamic_programming/01_knapsack.s
 
 # target to generate assembly for a file
-recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
-.PHONY : recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
+dynamic_programming/01_knapsack.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.s
+.PHONY : dynamic_programming/01_knapsack.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.o"
-	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.i"
-	@echo "... recurion_and_backstracking/131[not]_palindrome-partitioning.s"
+	@echo "... dynamic_programming/01_knapsack.o"
+	@echo "... dynamic_programming/01_knapsack.i"
+	@echo "... dynamic_programming/01_knapsack.s"
 .PHONY : help
 
 

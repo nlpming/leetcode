@@ -57,27 +57,27 @@ include CMakeFiles/leetcode-c++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode-c++.dir/flags.make
 
-CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
-CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o: ../recurion_and_backstracking/131[not]_palindrome-partitioning.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp
+CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
+CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o: ../dynamic_programming/01_knapsack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp
 
-CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp > CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.i
+CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp > CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.i
 
-CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp -o CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.s
+CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp -o CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.s
 
 # Object files for target leetcode-c++
 leetcode__c_______OBJECTS = \
-"CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o"
+"CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o"
 
 # External object files for target leetcode-c++
 leetcode__c_______EXTERNAL_OBJECTS =
 
-leetcode-c++: CMakeFiles/leetcode-c++.dir/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp.o
+leetcode-c++: CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o
 leetcode-c++: CMakeFiles/leetcode-c++.dir/build.make
 leetcode-c++: CMakeFiles/leetcode-c++.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode-c++"
