@@ -20,5 +20,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(leetcode-c++ recurion_and_backstracking/131[not]_palindrome-partitioning.cpp)
 
-add_executable(leetcode-c++ dynamic_programming/01_knapsack.cpp)
+add_executable(leetcode-c++ dynamic_programming/322[not]_coin-change.cpp)
 

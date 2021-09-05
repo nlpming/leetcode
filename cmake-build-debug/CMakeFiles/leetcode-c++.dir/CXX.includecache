@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp
+../include/print.h
 iostream
 -
 vector
 -
+map
+-
+set
+-
+stack
+-
+queue
+-
+unordered_set
+-
+unordered_map
+-
+
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/322_coin-change.cpp
+iostream
+-
+vector
+-
+print.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/print.h
 

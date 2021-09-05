@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/01_knapsack.cpp" "/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o"
+  "/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/dynamic_programming/322[not]_coin-change.cpp" "/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles/leetcode-c++.dir/dynamic_programming/322[not]_coin-change.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

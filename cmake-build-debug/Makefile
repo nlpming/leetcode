@@ -123,32 +123,32 @@ leetcode-c++/fast:
 	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-dynamic_programming/01_knapsack.o: dynamic_programming/01_knapsack.cpp.o
+dynamic_programming/322[not]_coin-change.o: dynamic_programming/322[not]_coin-change.cpp.o
 
-.PHONY : dynamic_programming/01_knapsack.o
+.PHONY : dynamic_programming/322[not]_coin-change.o
 
 # target to build an object file
-dynamic_programming/01_knapsack.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.o
-.PHONY : dynamic_programming/01_knapsack.cpp.o
+dynamic_programming/322[not]_coin-change.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/322[not]_coin-change.cpp.o
+.PHONY : dynamic_programming/322[not]_coin-change.cpp.o
 
-dynamic_programming/01_knapsack.i: dynamic_programming/01_knapsack.cpp.i
+dynamic_programming/322[not]_coin-change.i: dynamic_programming/322[not]_coin-change.cpp.i
 
-.PHONY : dynamic_programming/01_knapsack.i
+.PHONY : dynamic_programming/322[not]_coin-change.i
 
 # target to preprocess a source file
-dynamic_programming/01_knapsack.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.i
-.PHONY : dynamic_programming/01_knapsack.cpp.i
+dynamic_programming/322[not]_coin-change.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/322[not]_coin-change.cpp.i
+.PHONY : dynamic_programming/322[not]_coin-change.cpp.i
 
-dynamic_programming/01_knapsack.s: dynamic_programming/01_knapsack.cpp.s
+dynamic_programming/322[not]_coin-change.s: dynamic_programming/322[not]_coin-change.cpp.s
 
-.PHONY : dynamic_programming/01_knapsack.s
+.PHONY : dynamic_programming/322[not]_coin-change.s
 
 # target to generate assembly for a file
-dynamic_programming/01_knapsack.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/01_knapsack.cpp.s
-.PHONY : dynamic_programming/01_knapsack.cpp.s
+dynamic_programming/322[not]_coin-change.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/dynamic_programming/322[not]_coin-change.cpp.s
+.PHONY : dynamic_programming/322[not]_coin-change.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode-c++"
-	@echo "... dynamic_programming/01_knapsack.o"
-	@echo "... dynamic_programming/01_knapsack.i"
-	@echo "... dynamic_programming/01_knapsack.s"
+	@echo "... dynamic_programming/322[not]_coin-change.o"
+	@echo "... dynamic_programming/322[not]_coin-change.i"
+	@echo "... dynamic_programming/322[not]_coin-change.s"
 .PHONY : help
 
 

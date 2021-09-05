@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include "print.h"
 
 using namespace std;
 
@@ -52,15 +53,16 @@ public:
         int n = w.size();
         vector<int> dp(C+1, 0);
 
-        //1.初始化i=0的情况；
+        //一个物品的情况；
         for(int c = 0; c <= C; c++){
             dp[c] = (c >= w[0] ? v[0] : 0);
         }
 
-        //2.从c=C开始，从右到左开始处理；【一行一行的处理，行表示商品数】
-        for(int i = 1; i < n; i++){
-            for(int c = C; c >= w[i]; c--){
-                dp[c] = max(dp[c], v[i] + dp[c - w[i]]);
+        for(int i = 1; i < n; i++){ //遍历物品；
+            for(int c = C; c >= 0; c--){ //遍历背包；【C->0 从右向左进行遍历】
+                if(c >= w[i]){
+                    dp[c] = max(dp[c], dp[c - w[i]] + v[i]);
+                }
             }
         }
 
@@ -71,7 +73,7 @@ public:
 int main(){
 
     Solution s;
-    cout << s.Example({1,2,3}, {6,10,12}, 5) << endl;
+    //cout << s.Example({1,2,3}, {6,10,12}, 5) << endl;
     cout << s.Example2({1,2,3}, {6,10,12}, 5) << endl;
 
     return 0;
