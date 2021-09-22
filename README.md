@@ -3,6 +3,8 @@
 #### 数组问题 [array_problem]
 
 #### 二叉树问题 [binary_tree]
+- 二叉树；
+- 二叉搜索树；
 
 #### 动态规划问题 [dynamic_programming]
 
