@@ -25,6 +25,10 @@
 - 队列；
 - 优先队列（堆）；
 
+### 参考资料
+- 玩转算法面试 https://coding.imooc.com/class/chapter/82.html#Anchor
+- 算法与数据结构-综合提升 C++版 https://coding.imooc.com/class/71.html
+
 
 
 
