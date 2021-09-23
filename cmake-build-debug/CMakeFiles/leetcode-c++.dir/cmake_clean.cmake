@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/dynamic_programming/322[not]_coin-change.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/binary_tree/binary_search_tree.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )
