@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/21.
 //
 
+/*
+ * 考点：滑动窗口指针；
+ * 难度：*
+ * */
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {

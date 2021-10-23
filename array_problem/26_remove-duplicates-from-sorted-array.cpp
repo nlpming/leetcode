@@ -3,14 +3,19 @@
 //
 
 /*
- * 解题思路：双指针【滑动窗口指针】
+ * 考点：滑动窗口指针
+ * 难度：*
  * */
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         if(nums.size() == 0 || nums.size() == 1) return nums.size();
 
-        int left = 0, right = 0; //left存放当前不重复元素的最后一个index；
+        //注意：
+        //1. left存放当前不重复元素的最后一个index；【0...left】为不重复的数组序列；
+        //2. 滑动窗口指针；
+
+        int left = 0, right = 0;
         while(right+1 < nums.size()){
             right++;
 
