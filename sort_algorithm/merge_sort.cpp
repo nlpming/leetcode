@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include "print.h"
 
 using namespace std;
 
@@ -35,11 +36,11 @@ vector<int> merge(vector<int> left, vector<int> right){
 }
 
 vector<int> mergeSort(vector<int>& nums){
-
+    //NOTE: 容易忽略；
     if(nums.size() == 1)
         return nums;
 
-    // 二分数组
+    // 1.二分过程；
     int mid = nums.size()/2;
     vector<int> nums_left, nums_right;
 
@@ -50,26 +51,16 @@ vector<int> mergeSort(vector<int>& nums){
             nums_right.push_back(nums[i]);
     }
 
-    // 分别对左右两边进行排序
+    // 2.排序过程；
     vector<int> left = mergeSort(nums_left);
     vector<int> right = mergeSort(nums_right);
 
-    // 将排序好的left, right数组合并；
+    // 3.合并排序后的数组；
     return merge(left, right);
 }
 
 
-void printVector(vector<int>& nums){
-    for(int i = 0; i < nums.size(); i++){
-        cout << nums[i] << " ";
-    }
-
-    cout << endl;
-}
-
-
 int main(){
-
     vector<int> nums = {1,4,5,5,3,2,8};
 
     printVector(nums);
