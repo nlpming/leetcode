@@ -13,16 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/11_container-with-most-water.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/11_container-with-most-water.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/26_remove-duplicates-from-sorted-array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/26_remove-duplicates-from-sorted-array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/27_remove_element.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/27_remove_element.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/3_longest-substring-without-repeating-characters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/3_longest-substring-without-repeating-characters.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/75[not]_sort-colors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/75[not]_sort-colors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/80[not]_remove-duplicates-from-sorted-array-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/80[not]_remove-duplicates-from-sorted-array-ii.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/88_merge-sorted-array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/88_merge-sorted-array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/125_valid-palindrome.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/125_valid-palindrome.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/167_two-sum-ii-input-array-is-sorted.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/167_two-sum-ii-input-array-is-sorted.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/209_minimum-size-subarray-sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/209_minimum-size-subarray-sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/215_kth-largest-element-in-an-array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/215_kth-largest-element-in-an-array.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/array_problem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +132,7 @@
       <workItem from="1632369105994" duration="86000" />
       <workItem from="1632369341501" duration="9096000" />
       <workItem from="1634911618564" duration="59000" />
-      <workItem from="1634911696898" duration="6684000" />
+      <workItem from="1634911696898" duration="10937000" />
     </task>
     <servers />
   </component>

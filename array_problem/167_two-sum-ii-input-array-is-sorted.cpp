@@ -15,6 +15,7 @@ public:
         //注意：
         //1.left指针初始化为0，right指针初始化为nums.size()-1;
         //2.left, right相向移动，如果nums[left] + nums[right] == target则返回（left+1, right+1）；
+        //3.输入的是排序好的数据，相似题目未排序数组；
 
         while(left < right){
             if(numbers[left] + numbers[right] == target){

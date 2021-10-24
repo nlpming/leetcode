@@ -18,8 +18,8 @@ public:
 
         //注意：
         //1.判断是否字母：isaplha;
-        //2.判断是否数字：isdigit;
-        //3.字母转成小写：tolower;
+        //2.判断是否数字：isdigit; 头文件<cctype.h>
+        //3.字母转成小写：tolower; 头文件<cctype.h>
 
         int left = 0, right = s.length()-1;
         while(left < right){
