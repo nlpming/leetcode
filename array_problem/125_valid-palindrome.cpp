@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/22.
 //
 
+/*
+ * 考点：对撞指针；
+ * 难度：*
+ * */
 class Solution {
 public:
     //判断是否字母或数字
