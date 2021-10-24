@@ -7,10 +7,10 @@ include_directories(./include)
 set(CMAKE_CXX_STANDARD 11)
 
 # 排序问题
-#add_executable(leetcode-c++ sort_algorithm/merge_sort.cpp)
+#add_executable(leetcode-c++ sort_algorithm/704_binary_search.cpp)
 
 # 数组、字符串问题
-#add_executable(leetcode-c++ array_problem/vector.cpp)
+add_executable(leetcode-c++ array_problem/704_binary_search.cpp)
 
 # 哈希表问题
 #add_executable(leetcode-c++ hash_table/16_3sum-closest.cpp)
@@ -28,5 +28,5 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(leetcode-c++ dynamic_programming/322[not]_coin-change.cpp)
 
 # 二叉树、二叉搜索树问题
-add_executable(leetcode-c++ binary_tree/binary_search_tree.cpp)
+#add_executable(leetcode-c++ binary_tree/binary_search_tree.cpp)
 

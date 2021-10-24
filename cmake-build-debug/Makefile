@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-binary_tree/binary_search_tree.o: binary_tree/binary_search_tree.cpp.o
+array_problem/704_binary_search.o: array_problem/704_binary_search.cpp.o
 
-.PHONY : binary_tree/binary_search_tree.o
+.PHONY : array_problem/704_binary_search.o
 
 # target to build an object file
-binary_tree/binary_search_tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/binary_tree/binary_search_tree.cpp.o
-.PHONY : binary_tree/binary_search_tree.cpp.o
+array_problem/704_binary_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.o
+.PHONY : array_problem/704_binary_search.cpp.o
 
-binary_tree/binary_search_tree.i: binary_tree/binary_search_tree.cpp.i
+array_problem/704_binary_search.i: array_problem/704_binary_search.cpp.i
 
-.PHONY : binary_tree/binary_search_tree.i
+.PHONY : array_problem/704_binary_search.i
 
 # target to preprocess a source file
-binary_tree/binary_search_tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/binary_tree/binary_search_tree.cpp.i
-.PHONY : binary_tree/binary_search_tree.cpp.i
+array_problem/704_binary_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.i
+.PHONY : array_problem/704_binary_search.cpp.i
 
-binary_tree/binary_search_tree.s: binary_tree/binary_search_tree.cpp.s
+array_problem/704_binary_search.s: array_problem/704_binary_search.cpp.s
 
-.PHONY : binary_tree/binary_search_tree.s
+.PHONY : array_problem/704_binary_search.s
 
 # target to generate assembly for a file
-binary_tree/binary_search_tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/binary_tree/binary_search_tree.cpp.s
-.PHONY : binary_tree/binary_search_tree.cpp.s
+array_problem/704_binary_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.s
+.PHONY : array_problem/704_binary_search.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... binary_tree/binary_search_tree.o"
-	@echo "... binary_tree/binary_search_tree.i"
-	@echo "... binary_tree/binary_search_tree.s"
+	@echo "... array_problem/704_binary_search.o"
+	@echo "... array_problem/704_binary_search.i"
+	@echo "... array_problem/704_binary_search.s"
 .PHONY : help
 
 

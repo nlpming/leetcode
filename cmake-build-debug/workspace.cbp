@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/binary_tree/binary_search_tree.cpp">
+		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/array_problem/704_binary_search.cpp">
 			<Option target="leetcode-c++"/>
 		</Unit>
 		<Unit filename="/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/CMakeLists.txt">

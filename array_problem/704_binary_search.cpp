@@ -14,12 +14,18 @@ public:
     int search(vector<int> &nums, int target) {
         if (nums.size() == 0) return -1;
 
-        int left = 0, right = nums.size() - 1; //在[left,...,right]区间寻找target；
-        while (left <= right) { // 当left == right时，区间[left,...,right]仍然是有效的；
-            int mid = left + (right - left) / 2;
+        //注意：
+        //1. 在区间[left...right]进行查找；
+        //2. 对于left == right情况，区间仍然是有效的；
+
+        int left = 0, right = nums.size() - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2; //NOTE: 这种写法防止整形溢出；
             if (nums[mid] == target) {
                 return mid;
-            } else if (nums[mid] > target) {
+            }
+
+            if (nums[mid] > target) {
                 right = mid - 1;
             } else {
                 left = mid + 1;
@@ -36,22 +42,21 @@ public:
      * 二分查找：递归实现；
      * */
     int helper(vector<int>& nums, int left, int right, int target){
+        int result = -1;
         if(left <= right){
             int mid = left + (right-left)/2;
-            int result = -1;
-
             if(nums[mid] == target){
                 return mid;
-            }else if(nums[mid] > target){
+            }
+
+            if(nums[mid] > target){
                 result = helper(nums, left, mid-1, target);
             }else{
                 result = helper(nums, mid+1, right, target);
             }
-
-            return result;
-        }else{
-            return -1;
         }
+
+        return result;
     }
 
     int search(vector<int>& nums, int target) {

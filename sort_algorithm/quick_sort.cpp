@@ -39,7 +39,6 @@ void quickSort(vector<int>& nums, int left, int right){
     //NOTE: 对数组[left...right]进行排序；【递归的，二分将数组进行排序；】
     if(left < right){
         int pivot_idx = partition(nums, left, right);
-        printVector(nums);
         quickSort(nums, left, pivot_idx-1);
         quickSort(nums, pivot_idx+1, right);
     }
