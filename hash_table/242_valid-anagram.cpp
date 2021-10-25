@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/23.
 //
 
+/*
+ * 考点：哈希表（映射）；
+ * 难度：*
+ * */
 class Solution {
 public:
     bool isAnagram(string s, string t) {

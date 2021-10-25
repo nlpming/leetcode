@@ -4,12 +4,13 @@
 
 /*
  * 考点：堆
+ * 难度：**
  * 时间复杂度：O(nlogk)
  * */
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        //建立一个最小堆；【只存放k个元素】
+        //NOTE: 建立一个最小堆；【只存放k个元素】
         priority_queue<pair<int, int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
 
         //记录每个数字出现频率；
