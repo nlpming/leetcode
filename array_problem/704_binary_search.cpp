@@ -23,12 +23,11 @@ public:
             int mid = left + (right - left) / 2; //NOTE: 这种写法防止整形溢出；
             if (nums[mid] == target) {
                 return mid;
-            }
-
-            if (nums[mid] > target) {
-                right = mid - 1;
-            } else {
-                left = mid + 1;
+            }else{
+                if (nums[mid] > target)
+                    right = mid - 1;
+                else
+                    left = mid + 1;
             }
         }
 
