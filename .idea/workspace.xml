@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/242_valid-anagram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/242_valid-anagram.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/347[not]_top-k-frequent-elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/347[not]_top-k-frequent-elements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_problem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +48,8 @@
       <recent name="$PROJECT_DIR$/stack_and_queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/array_problem/pics" />
+      <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/binary_tree" />
       <recent name="$PROJECT_DIR$/binary_tree/pics" />
       <recent name="$PROJECT_DIR$/dynamic_programming/pics" />
@@ -134,7 +132,7 @@
       <workItem from="1632369105994" duration="86000" />
       <workItem from="1632369341501" duration="9096000" />
       <workItem from="1634911618564" duration="59000" />
-      <workItem from="1634911696898" duration="20740000" />
+      <workItem from="1634911696898" duration="20950000" />
     </task>
     <servers />
   </component>
