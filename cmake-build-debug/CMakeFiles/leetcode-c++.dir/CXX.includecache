@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/array_problem/704_binary_search.cpp
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/array_problem/28_implement-strstr.cpp
 iostream
+-
+string
 -
 vector
 -

@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-array_problem/704_binary_search.o: array_problem/704_binary_search.cpp.o
+array_problem/28_implement-strstr.o: array_problem/28_implement-strstr.cpp.o
 
-.PHONY : array_problem/704_binary_search.o
+.PHONY : array_problem/28_implement-strstr.o
 
 # target to build an object file
-array_problem/704_binary_search.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.o
-.PHONY : array_problem/704_binary_search.cpp.o
+array_problem/28_implement-strstr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28_implement-strstr.cpp.o
+.PHONY : array_problem/28_implement-strstr.cpp.o
 
-array_problem/704_binary_search.i: array_problem/704_binary_search.cpp.i
+array_problem/28_implement-strstr.i: array_problem/28_implement-strstr.cpp.i
 
-.PHONY : array_problem/704_binary_search.i
+.PHONY : array_problem/28_implement-strstr.i
 
 # target to preprocess a source file
-array_problem/704_binary_search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.i
-.PHONY : array_problem/704_binary_search.cpp.i
+array_problem/28_implement-strstr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28_implement-strstr.cpp.i
+.PHONY : array_problem/28_implement-strstr.cpp.i
 
-array_problem/704_binary_search.s: array_problem/704_binary_search.cpp.s
+array_problem/28_implement-strstr.s: array_problem/28_implement-strstr.cpp.s
 
-.PHONY : array_problem/704_binary_search.s
+.PHONY : array_problem/28_implement-strstr.s
 
 # target to generate assembly for a file
-array_problem/704_binary_search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/704_binary_search.cpp.s
-.PHONY : array_problem/704_binary_search.cpp.s
+array_problem/28_implement-strstr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28_implement-strstr.cpp.s
+.PHONY : array_problem/28_implement-strstr.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... array_problem/704_binary_search.o"
-	@echo "... array_problem/704_binary_search.i"
-	@echo "... array_problem/704_binary_search.s"
+	@echo "... array_problem/28_implement-strstr.o"
+	@echo "... array_problem/28_implement-strstr.i"
+	@echo "... array_problem/28_implement-strstr.s"
 .PHONY : help
 
 
