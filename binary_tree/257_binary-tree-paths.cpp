@@ -2,35 +2,38 @@
 // Created by 陈志明 on 2021/8/28.
 //
 
+/*
+ * 考点：递归、二叉树；
+ * 难度：*
+ * */
 class Solution {
 public:
     vector<string> res;
-    void helper(TreeNode *node, string tmp){
-        //NOTE: 注意递归终止条件；
-        if(node->left == NULL && node->right == NULL){
+    void helper(TreeNode *root, string tmp){
+        if(root == NULL)
+            return;
+
+        //将路径串起来；
+        if(tmp.size() == 0)
+            tmp = to_string(root->val);
+        else
+            tmp += "->" + to_string(root->val);
+
+        if(root->left == NULL && root->right == NULL){
             res.push_back(tmp);
             return;
         }
 
-        string left_tmp = tmp, right_tmp = tmp;
-        if(node->left != NULL){
-            left_tmp += "->" + to_string(node->left->val);
-            helper(node->left, left_tmp);
-        }
-
-        if(node->right != NULL){
-            right_tmp += "->" + to_string(node->right->val);
-            helper(node->right, right_tmp);
-        }
-        return;
+        if(root->left != NULL)
+            helper(root->left, tmp);
+        if(root->right != NULL)
+            helper(root->right, tmp);
     }
 
     vector<string> binaryTreePaths(TreeNode* root) {
-        if(root == NULL)
-            return res;
-
-        string tmp(to_string(root->val));
+        string tmp = "";
         helper(root, tmp);
+
         return res;
     }
 };

@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/28.
 //
 
+/*
+ * 考点：递归、二叉树；
+ * 难度：*
+ * */
 class Solution {
 public:
     int maxDepth(TreeNode* root) {

@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/28.
 //
 
+/*
+ * 考点：递归、二叉树；
+ * 难度：**
+ * */
 class Solution {
 public:
     int res = 0;
@@ -27,12 +31,13 @@ public:
         if(root == NULL)
             return 0;
 
-        //遍历每一个结点，以次结点作为起始结点查找；
+        //以当前结点作为起始结点查找；
         helper(root, targetSum);
+
+        //遍历每一个结点；
         if(root->left != NULL){
             pathSum(root->left, targetSum);
         }
-
         if(root->right != NULL){
             pathSum(root->right, targetSum);
         }

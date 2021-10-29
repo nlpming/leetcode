@@ -2,6 +2,12 @@
 // Created by 陈志明 on 2021/9/23.
 //
 
+/*
+ * 考点：递归、二叉树后序遍历、二叉搜索树；
+ * 难度：***
+ * 题目链接：https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
+ * 来源：剑指offer
+ * */
 class Solution {
 public:
     bool helper(vector<int>& postorder, int left, int right){
@@ -23,7 +29,7 @@ public:
     }
 
     bool verifyPostorder(vector<int>& postorder) {
-        //TODO: 解题思路 https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/solution/mian-shi-ti-33-er-cha-sou-suo-shu-de-hou-xu-bian-6/
         return helper(postorder, 0, postorder.size()-1);
+
     }
 };

@@ -2,21 +2,14 @@
 // Created by 陈志明 on 2021/9/13.
 //
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+/*
+ * 考点：递归、二叉树、三指针；
+ * 难度：**
+ * */
 class Solution {
 public:
     vector<TreeNode*> record;
-    void helper(TreeNode *root){
+    void preOrder(TreeNode *root){
         if(root == NULL)
             return;
 
@@ -29,15 +22,11 @@ public:
     //时间复杂度：O(n)
     //空间复杂度：O(n)
     void flatten_one(TreeNode* root) {
-
         //先序遍历二叉树；
-        helper(root);
-
-        TreeNode *node = root;
-        for(int i = 1; i < record.size(); i++){
-            node->right = record[i];
-            node->left = NULL;
-            node = record[i]; //node结点在移动
+        preOrder(root);
+        for(int i = 0; i < record.size()-1; i++){
+            record[i]->right = res[i+1];
+            record[i]->left = NULL;
         }
 
         return;
@@ -53,6 +42,7 @@ public:
             if(cur->left != NULL){
                 TreeNode *next = cur->left;
                 TreeNode *pre = next;
+
                 while(pre->right != NULL){ //遍历得到next，最右边的叶子结点；
                     pre = pre->right;
                 }

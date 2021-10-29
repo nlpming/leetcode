@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(leetcode-c++ sort_algorithm/704_binary_search.cpp)
 
 # 数组、字符串问题
-add_executable(leetcode-c++ array_problem/28_implement-strstr.cpp)
+add_executable(leetcode-c++ array_problem/28[not]_implement-strstr.cpp)
 
 # 哈希表问题
 #add_executable(leetcode-c++ hash_table/16_3sum-closest.cpp)

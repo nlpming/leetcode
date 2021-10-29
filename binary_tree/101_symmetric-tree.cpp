@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/28.
 //
 
+/*
+ * 考点：递归、二叉树；
+ * 难度：**
+ * */
 class Solution {
 public:
     bool helper(TreeNode *node1, TreeNode *node2){
@@ -45,8 +49,7 @@ public:
 
             if(node1 == NULL && node2 == NULL){
                 continue;
-            }
-            else if(node1 == NULL && node2 != NULL)
+            }else if(node1 == NULL && node2 != NULL)
                 return false;
             else if(node1 != NULL && node2 == NULL)
                 return false;

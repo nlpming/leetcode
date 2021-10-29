@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/leetcode-c++.dir/array_problem/28_implement-strstr.cpp.o"
+  "CMakeFiles/leetcode-c++.dir/array_problem/28[not]_implement-strstr.cpp.o"
   "leetcode-c++"
   "leetcode-c++.pdb"
 )
