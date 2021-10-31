@@ -2,11 +2,14 @@
 // Created by 陈志明 on 2021/9/1.
 //
 
+/*
+ * 考点：动态规划；（注意不同的解法，从时间复杂度和空间复杂度考虑）
+ * 难度：**
+ * */
 class Solution {
 public:
     //方法一：时间复杂度O(mn)，空间复杂度O(mn)
     int uniquePaths_one(int m, int n) {
-
         vector<vector<int>> dp(m, vector<int>(n, 0));
 
         //j=0的时候
@@ -48,7 +51,7 @@ public:
     int uniquePaths(int m, int n) {
         long res = 1;
         for(int x = n, y = 1; y < m; x++,y++){
-            res = res * x/y;
+            res = res * x/y; //NOTE: 注意此处；
         }
 
         return res;

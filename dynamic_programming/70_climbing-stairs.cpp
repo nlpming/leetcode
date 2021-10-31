@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/31.
 //
 
+/*
+ * 考点：动态规划；
+ * 难度：*
+ * */
 class Solution {
 public:
     int climbStairs(int n) {

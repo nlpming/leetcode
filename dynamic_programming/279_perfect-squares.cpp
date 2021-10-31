@@ -2,13 +2,20 @@
 // Created by 陈志明 on 2021/8/31.
 //
 
+/*
+ * 考点：动态规划、广度优先搜索；
+ * 难度：***
+ * */
 class Solution {
 public:
+    //方法一：动态规划；
     int numSquares(int n) {
-        //解题思路：
-        // dp[n] = min{dp[n-1], dp[n-4], ..., dp[n-k^2]} + 1;
+        if(n == 1) return 1;
 
-        vector<int> dp(n+1, INT_MAX);
+        //状态转移方程：dp[i] = min{dp[n-1], dp[n-4], dp[n-9], ..., dp[n-k^2]} + 1
+        //注意终止：n - k^2 >= 0；
+
+        vector<int> dp(n+1, n+1);
         dp[0] = 0;
         dp[1] = 1;
 

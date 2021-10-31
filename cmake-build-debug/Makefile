@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-array_problem/28[not]_implement-strstr.o: array_problem/28[not]_implement-strstr.cpp.o
+sort_algorithm/merge_sort_v2.o: sort_algorithm/merge_sort_v2.cpp.o
 
-.PHONY : array_problem/28[not]_implement-strstr.o
+.PHONY : sort_algorithm/merge_sort_v2.o
 
 # target to build an object file
-array_problem/28[not]_implement-strstr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28[not]_implement-strstr.cpp.o
-.PHONY : array_problem/28[not]_implement-strstr.cpp.o
+sort_algorithm/merge_sort_v2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o
+.PHONY : sort_algorithm/merge_sort_v2.cpp.o
 
-array_problem/28[not]_implement-strstr.i: array_problem/28[not]_implement-strstr.cpp.i
+sort_algorithm/merge_sort_v2.i: sort_algorithm/merge_sort_v2.cpp.i
 
-.PHONY : array_problem/28[not]_implement-strstr.i
+.PHONY : sort_algorithm/merge_sort_v2.i
 
 # target to preprocess a source file
-array_problem/28[not]_implement-strstr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28[not]_implement-strstr.cpp.i
-.PHONY : array_problem/28[not]_implement-strstr.cpp.i
+sort_algorithm/merge_sort_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.i
+.PHONY : sort_algorithm/merge_sort_v2.cpp.i
 
-array_problem/28[not]_implement-strstr.s: array_problem/28[not]_implement-strstr.cpp.s
+sort_algorithm/merge_sort_v2.s: sort_algorithm/merge_sort_v2.cpp.s
 
-.PHONY : array_problem/28[not]_implement-strstr.s
+.PHONY : sort_algorithm/merge_sort_v2.s
 
 # target to generate assembly for a file
-array_problem/28[not]_implement-strstr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/array_problem/28[not]_implement-strstr.cpp.s
-.PHONY : array_problem/28[not]_implement-strstr.cpp.s
+sort_algorithm/merge_sort_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.s
+.PHONY : sort_algorithm/merge_sort_v2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... array_problem/28[not]_implement-strstr.o"
-	@echo "... array_problem/28[not]_implement-strstr.i"
-	@echo "... array_problem/28[not]_implement-strstr.s"
+	@echo "... sort_algorithm/merge_sort_v2.o"
+	@echo "... sort_algorithm/merge_sort_v2.i"
+	@echo "... sort_algorithm/merge_sort_v2.s"
 .PHONY : help
 
 

@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/31.
 //
 
+/*
+ * 考点：动态规划；
+ * 难度：**
+ * */
 class Solution {
 public:
     //方法一：空间复杂度O(m*n)
@@ -45,7 +49,7 @@ public:
         dp[0] = triangle[0][0];
 
         for(int i = 1; i < m; i++){
-            //NOTE: 注意此处，从后往前求值；
+            //NOTE: 从右向左赋值；
             for(int j = triangle[i].size()-1; j >= 0; j--){
                 if(j == 0){
                     dp[j] = dp[j] + triangle[i][j];

@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/9/5.
 //
 
+/*
+ * 考点：动态规划；
+ * 难度：**
+ * */
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
