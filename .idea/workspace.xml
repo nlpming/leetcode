@@ -13,33 +13,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/binary_tree/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/1143_longest-common-subsequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/1143_longest-common-subsequence.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/120_triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/120_triangle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/198_house-robber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/198_house-robber.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/279_perfect-squares.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/279_perfect-squares.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/300_longest-increasing-subsequence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/300_longest-increasing-subsequence.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/322[not]_coin-change.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/322[not]_coin-change.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/337[not]_house-robber-iii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/337[not]_house-robber-iii.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/343[not]_integer-break.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/343[not]_integer-break.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/416[not]_partition-equal-subset-sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/416[not]_partition-equal-subset-sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/493[not]_reverse-pairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/493[not]_reverse-pairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/62_unique-paths.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/62_unique-paths.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/63[not]_unique-paths-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/63[not]_unique-paths-ii.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/64_minimum-path-sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/64_minimum-path-sum.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/70_climbing-stairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/70_climbing-stairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/72_edit-distance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/72_edit-distance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/91[not]_decode-ways.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/91[not]_decode-ways.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/130_surrounded-regions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/130_surrounded-regions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/17_letter-combinations-of-a-phone-number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/17_letter-combinations-of-a-phone-number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/200_number-of-islands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/200_number-of-islands.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/39_combination-sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/39_combination-sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/417_pacific-atlantic-water-flow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/417_pacific-atlantic-water-flow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/46_permutations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/46_permutations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/47[not]_permutations-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/47[not]_permutations-ii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/51_n-queens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/51_n-queens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/77_combinations.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/77_combinations.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/78[not]_subsets.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/78[not]_subsets.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/79_word-search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/79_word-search.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/90_subsets-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/90_subsets-ii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/93[not]_restore-ip-addresses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/93[not]_restore-ip-addresses.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +72,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="workspace" RUN_TARGET_NAME="leetcode-c++" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -161,7 +145,8 @@
       <workItem from="1634911618564" duration="59000" />
       <workItem from="1634911696898" duration="25335000" />
       <workItem from="1635297666476" duration="7096000" />
-      <workItem from="1635340137585" duration="23014000" />
+      <workItem from="1635340137585" duration="29776000" />
+      <workItem from="1635737198445" duration="3746000" />
     </task>
     <servers />
   </component>
@@ -175,11 +160,6 @@
           <url>file://$PROJECT_DIR$/stack_and_queue/127[not]_word-ladder.cpp</url>
           <line>30</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/recurion_and_backstracking/131[not]_palindrome-partitioning.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

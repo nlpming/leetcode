@@ -4,7 +4,7 @@
 
 /*
  * 考点：回溯算法
- * 时间复杂度：O(2^n) - O(3^n)
+ * 难度：**
  * */
 class Solution {
 public:
@@ -22,7 +22,6 @@ public:
         //1. index记录当前处理第几个字符；
         //2. tmp用于存储中间结果；
 
-        //NOTE: 注意0,1的处理；
         int curIdx = digits[index] - '0';
         if(curIdx < 0 || curIdx >= recordVector.size())
             return;

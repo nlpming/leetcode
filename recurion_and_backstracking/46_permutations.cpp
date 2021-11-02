@@ -2,64 +2,44 @@
 // Created by 陈志明 on 2021/8/29.
 //
 
+/*
+ * 考点：回溯、深度优先搜索；
+ * 难度：**
+ * */
 class Solution {
 public:
     vector<vector<int>> res;
-
-    void dfs(vector<int> nums, int index, vector<int>& record, vector<bool>& visited){
+    vector<bool> visited;
+    void helper(vector<int>& nums, int index, vector<int>& tmp){
         if(index == nums.size()){
-            res.push_back(record);
+            res.push_back(tmp);
             return;
         }
 
-        //NOTE: 每次i都是从[0...n-1]遍历；
+        //每次都是从 0 -> n-1;
         for(int i = 0; i < nums.size(); i++){
-            if(!visited[i]){
-                record.push_back(nums[i]);
-                visited[i] = true;
+            if(visited[i]) //NOTE: visited记录，当前位置数字是否被使用过；
+                continue;
 
-                //index: 表示处理第几个数字；
-                dfs(nums, index+1, record, visited);
-
-                record.pop_back();
-                visited[i] = false;
-            }
+            tmp.push_back(nums[i]);
+            visited[i] = true;
+            helper(nums, index+1, tmp); //index代表处理，第几个数字；
+            tmp.pop_back(); //NOTE: 回溯过程；
+            visited[i] = false;
         }
 
         return;
     }
 
-    //方法一：不修改nums；
-    vector<vector<int>> permute_one(vector<int>& nums) {
-        if(nums.size() == 0)
-            return res;
-
-        vector<bool> visited(nums.size(), false); //记录是否被访问；
-        vector<int> record; //记录中间结果；
-        dfs(nums, 0, record, visited);
-
-        return res;
-    }
-
-    void helper(vector<int>& nums, int left, int right){
-        if(left == right){
-            res.push_back(nums);
-            return;
-        }
-
-        for(int i = left; i <= right; i++){
-            swap(nums[left], nums[i]);
-            helper(nums, left+1, right);
-            swap(nums[left], nums[i]);
-        }
-    }
-
-    //方法二：直接修改nums；
     vector<vector<int>> permute(vector<int>& nums) {
         if(nums.size() == 0)
-            return res;
+            return {};
 
-        helper(nums, 0, nums.size()-1);
+        int n = nums.size();
+        visited = vector<bool>(n, false); //visited初始化；
+
+        vector<int> tmp;
+        helper(nums, 0, tmp);
         return res;
     }
 };

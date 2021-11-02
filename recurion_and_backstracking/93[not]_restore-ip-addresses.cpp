@@ -10,7 +10,7 @@ using namespace std;
 
 /*
  * 考点：回溯算法；
- * 难度：***
+ * 难度：****
  * */
 class Solution{
 private:
@@ -19,6 +19,7 @@ private:
     vector<int> segments;
 
 public:
+    //NOTE: segIdx -> 表示分段数字总数；segStart -> 表示开始切分的位置；
     void dfs(string s, int segIdx, int segStart){
         //找到问题答案；
         if(segIdx == SEG_COUNT && segStart == s.size()){

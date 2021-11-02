@@ -2,25 +2,26 @@
 // Created by 陈志明 on 2021/8/30.
 //
 
+/*
+ * 考点：回溯、深度优先搜索；
+ * 难度：***
+ * */
 class Solution {
 public:
     vector<vector<int>> res;
-    void helper(vector<int>& candidates, int target, int index, int sum, vector<int>& tmp){
-        //1. 找到答案；
-        if(sum == target){
+    void helper(vector<int>& candidates, int target, int index, vector<int>& tmp){
+        if(target == 0){ //找到答案；
             res.push_back(tmp);
             return;
         }
 
-        //2.大于target结束递归；
-        if(sum > target){
-            return;
-        }
+        //candidates元素可以重复使用；
+        for(int i = index; i < candidates.size(); i++){ //NOTE: index记录开始查找的位置；【用于结果去重】
+            if(target - candidates[i] < 0)
+                break;
 
-        //3. i=index注意此处去重；【每次只能从index，开始往后搜索】
-        for(int i = index; i < candidates.size(); i++){
             tmp.push_back(candidates[i]);
-            helper(candidates, target, i, sum+candidates[i], tmp);
+            helper(candidates, target - candidates[i], i, tmp);
             tmp.pop_back();
         }
 
@@ -28,17 +29,11 @@ public:
     }
 
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        if(candidates.size() == 0)
-            return res;
-
-        //解题思路：
-        //1. sum用于存储当前总和；
-        //2. tmp用于记录中间结果；
-
         vector<int> tmp;
-
+        //candidates进行排序；
         sort(candidates.begin(), candidates.end());
-        helper(candidates, target, 0, 0, tmp);
+
+        helper(candidates, target, 0, tmp);
         return res;
     }
 };

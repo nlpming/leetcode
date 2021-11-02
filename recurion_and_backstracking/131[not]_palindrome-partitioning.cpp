@@ -11,39 +11,34 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> res;
-    bool isValid(string str){
-        if(str.size() == 0)
+    bool isValid(string s){
+        //判断是否回文串；
+        if(s.size() == 0)
             return true;
 
-        int i = 0;
-        int j = str.size()-1;
+        int i = 0, j = s.size()-1;
         while(i < j){
-            if(str[i] == str[j]){
-                i++;
-                j--;
-            }else{
+            if(s[i] != s[j])
                 return false;
-            }
+            i++;
+            j--;
         }
-
         return true;
     }
 
     void dfs(string s, int segStart, vector<string>& segments){
-        //1.找到问题答案；
+        //找到问题答案；
         if(segStart == s.size()){
             res.push_back(segments);
             return;
         }
 
-        //2. 从segStart位置开始，每次截取长度：1->2->3->... 子串进行判断；
-        for(int j = 1; segStart+j <= s.size(); j++){
-            string str = s.substr(segStart, j);
-            if(str.size() > 0 && isValid(str)){
-                segments.push_back(str);
-
-                //3. 下一个分割位置是：segStart + str.size();
-                dfs(s, segStart+str.size(), segments);
+        //尝试截取长度len=1,2,3,...进行判断；
+        for(int len = 1; segStart+len <= s.size(); len++){
+            string tmp = s.substr(segStart, len);
+            if(tmp.size() > 0 && isValid(tmp)){ //判断截取字符串是否有效；
+                segments.push_back(tmp);
+                dfs(s, segStart+tmp.size(), segments);
                 segments.pop_back();
             }
         }
@@ -55,7 +50,6 @@ public:
 
         vector<string> segments;
         dfs(s, 0, segments);
-
         return res;
     }
 };

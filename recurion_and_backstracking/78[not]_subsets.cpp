@@ -2,6 +2,19 @@
 // Created by 陈志明 on 2021/8/30.
 //
 
+/*
+ * 考点：回溯；
+ * 难度：**
+//NOTE: index表示处理以nums[index]开始的所有子集；
+// []
+// 1
+// 1,2
+// 1,2,3
+// 1,3
+// 2
+// 2,3
+// 3
+ * */
 class Solution {
 public:
     vector<vector<int>> res;
@@ -12,15 +25,6 @@ public:
             return;
         }
 
-        //NOTE: index表示处理以nums[index]开始的所有子集；
-        // []
-        // 1
-        // 1,2
-        // 1,2,3
-        // 1,3
-        // 2
-        // 2,3
-        // 3
         for(int i = index; i < nums.size(); i++){
             tmp.push_back(nums[i]);
             helper(nums, i+1, tmp);
