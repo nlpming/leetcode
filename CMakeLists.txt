@@ -7,7 +7,7 @@ include_directories(./include)
 set(CMAKE_CXX_STANDARD 11)
 
 # 排序问题
-add_executable(leetcode-c++ sort_algorithm/merge_sort_v2.cpp)
+#add_executable(leetcode-c++ sort_algorithm/merge_sort_v2.cpp)
 
 # 数组、字符串问题
 #add_executable(leetcode-c++ array_problem/28[not]_implement-strstr.cpp)
@@ -19,7 +19,7 @@ add_executable(leetcode-c++ sort_algorithm/merge_sort_v2.cpp)
 #add_executable(leetcode-c++ link_list/143[not]_reorder-list.cpp)
 
 # 栈、队列、堆问题
-#add_executable(leetcode-c++ stack_and_queue/127_word-ladder.cpp)
+add_executable(leetcode-c++ stack_and_queue/127_word-ladder.cpp)
 
 # 递归、回溯问题；
 #add_executable(leetcode-c++ recurion_and_backstracking/131[not]_palindrome-partitioning.cpp)

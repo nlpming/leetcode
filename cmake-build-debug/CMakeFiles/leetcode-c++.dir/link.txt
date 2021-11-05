@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o  -o leetcode-c++ 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o  -o leetcode-c++ 

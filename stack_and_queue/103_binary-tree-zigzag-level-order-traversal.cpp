@@ -2,39 +2,44 @@
 // Created by 陈志明 on 2021/8/27.
 //
 
+/*
+ * 考点：队列，广度优先搜索；
+ * 难度：**
+ * */
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        if(root == NULL) return {};
+        queue<TreeNode*> record;
+        record.push(root);
+
+        int level = 0;
         vector<vector<int>> res;
-        if(root == NULL) return res;
-
-        queue<pair<int, TreeNode*>> record;
-        record.push(make_pair(0, root));
         while(!record.empty()){
-            int level = record.front().first;
-            TreeNode *node = record.front().second;
-            record.pop();
+            int size = record.size();
+            vector<int> tmp;
 
-            if(level == res.size()){
-                vector<int> tmp;
+            for(int i = 0; i < size; i++){
+                TreeNode *node = record.front();
                 tmp.push_back(node->val);
+                record.pop();
 
-                res.push_back(tmp);
-            }else{
-                //NOTE: 相比层次遍历，主要改动的地方；
-                if(level%2 == 0){
-                    //偶数插入vector末尾；
-                    res[level].push_back(node->val);
-                }else{
-                    //奇数插入vector开头；
-                    res[level].insert(res[level].begin(), node->val);
-                }
+                if(node->left != NULL)
+                    record.push(node->left);
+                if(node->right != NULL)
+                    record.push(node->right);
             }
 
-            if(node->left != NULL)
-                record.push(make_pair(level+1, node->left));
-            if(node->right != NULL)
-                record.push(make_pair(level+1, node->right));
+            //根据奇偶层级做不同的判断；
+            if(level%2 == 0)
+                res.push_back(tmp);
+            else{
+                reverse(tmp.begin(), tmp.end());
+                res.push_back(tmp);
+            }
+
+            //层级+1
+            level += 1;
         }
 
         return res;

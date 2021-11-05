@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/28.
 //
 
+/*
+ * 考点：堆；
+ * 难度：***
+ * */
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {

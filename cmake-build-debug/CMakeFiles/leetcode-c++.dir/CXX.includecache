@@ -6,29 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/print.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/127_word-ladder.cpp
 iostream
 -
 vector
 -
-map
--
-set
--
-stack
+string
 -
 queue
 -
 unordered_set
 -
-unordered_map
--
-
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/merge_sort_v2.cpp
-iostream
--
-vector
--
-print.h
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/print.h
 

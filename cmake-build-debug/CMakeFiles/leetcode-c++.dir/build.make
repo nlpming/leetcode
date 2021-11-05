@@ -77,27 +77,27 @@ include CMakeFiles/leetcode-c++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode-c++.dir/flags.make
 
-CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
-CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o: ../sort_algorithm/merge_sort_v2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/merge_sort_v2.cpp
+CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
+CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o: ../stack_and_queue/127_word-ladder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/127_word-ladder.cpp
 
-CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/merge_sort_v2.cpp > CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.i
+CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/127_word-ladder.cpp > CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i
 
-CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/sort_algorithm/merge_sort_v2.cpp -o CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.s
+CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/stack_and_queue/127_word-ladder.cpp -o CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s
 
 # Object files for target leetcode-c++
 leetcode__c_______OBJECTS = \
-"CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o"
+"CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o"
 
 # External object files for target leetcode-c++
 leetcode__c_______EXTERNAL_OBJECTS =
 
-leetcode-c++: CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o
+leetcode-c++: CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o
 leetcode-c++: CMakeFiles/leetcode-c++.dir/build.make
 leetcode-c++: CMakeFiles/leetcode-c++.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode-c++"

@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/26.
 //
 
+/*
+ * 考点：栈；
+ * 难度：*
+ * */
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -14,13 +18,13 @@ public:
                 left = nums.top(); nums.pop();
                 right = nums.top(); nums.pop();
 
-                if(tokens[i][0] == '*'){
+                if(tokens[i] == "*"){
                     res = right * left;
-                }else if(tokens[i][0] == '+'){
+                }else if(tokens[i] == "+"){
                     res = right + left;
-                }else if(tokens[i][0] == '-'){
+                }else if(tokens[i] == "-"){
                     res = right - left;
-                }else if(tokens[i][0] == '/'){
+                }else if(tokens[i] == "/"){
                     res = right / left;
                 }
 

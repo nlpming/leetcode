@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-sort_algorithm/merge_sort_v2.o: sort_algorithm/merge_sort_v2.cpp.o
+stack_and_queue/127_word-ladder.o: stack_and_queue/127_word-ladder.cpp.o
 
-.PHONY : sort_algorithm/merge_sort_v2.o
+.PHONY : stack_and_queue/127_word-ladder.o
 
 # target to build an object file
-sort_algorithm/merge_sort_v2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.o
-.PHONY : sort_algorithm/merge_sort_v2.cpp.o
+stack_and_queue/127_word-ladder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o
+.PHONY : stack_and_queue/127_word-ladder.cpp.o
 
-sort_algorithm/merge_sort_v2.i: sort_algorithm/merge_sort_v2.cpp.i
+stack_and_queue/127_word-ladder.i: stack_and_queue/127_word-ladder.cpp.i
 
-.PHONY : sort_algorithm/merge_sort_v2.i
+.PHONY : stack_and_queue/127_word-ladder.i
 
 # target to preprocess a source file
-sort_algorithm/merge_sort_v2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.i
-.PHONY : sort_algorithm/merge_sort_v2.cpp.i
+stack_and_queue/127_word-ladder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i
+.PHONY : stack_and_queue/127_word-ladder.cpp.i
 
-sort_algorithm/merge_sort_v2.s: sort_algorithm/merge_sort_v2.cpp.s
+stack_and_queue/127_word-ladder.s: stack_and_queue/127_word-ladder.cpp.s
 
-.PHONY : sort_algorithm/merge_sort_v2.s
+.PHONY : stack_and_queue/127_word-ladder.s
 
 # target to generate assembly for a file
-sort_algorithm/merge_sort_v2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/sort_algorithm/merge_sort_v2.cpp.s
-.PHONY : sort_algorithm/merge_sort_v2.cpp.s
+stack_and_queue/127_word-ladder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s
+.PHONY : stack_and_queue/127_word-ladder.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... sort_algorithm/merge_sort_v2.o"
-	@echo "... sort_algorithm/merge_sort_v2.i"
-	@echo "... sort_algorithm/merge_sort_v2.s"
+	@echo "... stack_and_queue/127_word-ladder.o"
+	@echo "... stack_and_queue/127_word-ladder.i"
+	@echo "... stack_and_queue/127_word-ladder.s"
 .PHONY : help
 
 

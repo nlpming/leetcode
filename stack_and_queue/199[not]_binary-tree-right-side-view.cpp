@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/27.
 //
 
+/*
+ * 考点：广度优先搜索、队列；
+ * 难度：**
+ * */
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {

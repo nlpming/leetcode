@@ -7,6 +7,9 @@
 #include <vector>
 using namespace std;
 
+/*
+ * 字符串分割；
+ * */
 vector<string> string_split(string str, string pattern){
     vector<string> res;
     if(str.length() == 0) return res;
@@ -30,7 +33,7 @@ int main()
 {
     vector<string> res = string_split("/a/./b/../../c/", "/");
     for(int i = 0; i < res.size(); i++){
-        cout << res[i] << " ";
+        cout << "|" << res[i] << "|" << "->";
     }
     cout << endl;
 

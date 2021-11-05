@@ -8,41 +8,36 @@
  * */
 class Solution {
 public:
-    bool checkValid(char left, char right){
-        if(left == '[' && right == ']'){
+    bool isMatch(char topChar, char ch){
+        if(topChar == '(' && ch == ')')
             return true;
-        }else if(left == '(' && right == ')'){
+        else if(topChar == '[' && ch == ']')
             return true;
-        }else if(left == '{' && right == '}'){
+        else if(topChar == '{' && ch == '}')
             return true;
-        }
-
         return false;
     }
 
     bool isValid(string s) {
-        if(s.length() == 0) return true;
-
+        int n = s.size();
         stack<char> record;
-        for(int i = 0; i < s.length(); i++){
+
+        for(int i = 0; i < n; i++){
             if(record.empty()){
                 record.push(s[i]);
             }else{
-                char left = record.top();
-                //NOTE: 如果匹配，则栈顶字符出栈；
-                if(checkValid(left, s[i])){
+                char topChar = record.top();
+                //栈顶出现下面三个字符，直接返回；
+                if(topChar == ')' || topChar == '}' || topChar == ']')
+                    return false;
+
+                if(isMatch(topChar, s[i]))
                     record.pop();
-                }else{
-                    //NOTE: 遇到右括号不匹配则直接返回【注意此处】
-                    if(s[i] == ']' || s[i] == ')' || s[i] == '}')
-                        return false;
-                    else
-                        record.push(s[i]);
-                }
+                else
+                    record.push(s[i]);
             }
         }
 
-        //NOTE: 判断栈是否为空；
         if(record.empty())
             return true;
         else

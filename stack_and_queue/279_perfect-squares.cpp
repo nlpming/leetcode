@@ -15,25 +15,24 @@ class Solution {
 public:
 
     //方法一：广度优先搜索 + 队列 【最短路径】
-    int numSquares_one(int n) {
+    int numSquares_m1(int n) {
         queue<pair<int, int>> record;
-        vector<bool> visited(n, false); //NOTE: 用于记录元素是否被访问；【注意此处容易忽略】
-
         record.push(make_pair(0, n));
-        visited[n-1] = true;
+
+        vector<bool> visited(n+1, false); //用于记录是否被访问；
+        visited[n] = true;
+
         while(!record.empty()){
             int level = record.front().first;
-            int data = record.front().second;
+            int number = record.front().second;
             record.pop();
 
-            //NOTE: 找到最短路径；
-            if(data == 0){
+            //找到答案；
+            if(number == 0)
                 return level;
-            }
 
-            //NOTE: 压入数据；data - i*i
-            for(int i = 1; i*i <= data; i++){
-                int val = data - i*i;
+            for(int j = 1; j*j <= number; j++){
+                int val = number - j*j;
                 if(!visited[val]){
                     record.push(make_pair(level+1, val));
                     visited[val] = true;

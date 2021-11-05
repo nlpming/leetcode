@@ -2,52 +2,57 @@
 // Created by 陈志明 on 2021/8/26.
 //
 
+/*
+ * 考点：二叉树、中序遍历、栈；
+ * 难度：**
+ * */
 class Solution {
 public:
     vector<int> res;
+    void helper(TreeNode *root){
+        if(root == NULL)
+            return;
 
-    void process(TreeNode *root){
-        if(root != NULL){
-            process(root->left);
-            res.push_back(root->val);
-            process(root->right);
-        }
+        helper(root->left);
+        res.push_back(root->val);
+        helper(root->right);
     }
 
-    //方法一: 递归实现；
-    vector<int> inorderTraversal_one(TreeNode* root) {
-        process(root);
+    //方法一：中序遍历递归实现；
+    vector<int> inorderTraversal_m1(TreeNode* root) {
+        helper(root);
         return res;
     }
 
-    //NOTE: 递归辅助结构体；
-    struct Cmd{
-        string msg;
+    struct Command{
+        string cmd;
         TreeNode *node;
-        Cmd(string msg, TreeNode *node): msg(msg), node(node){};
+        Command(string cmd, TreeNode *node): cmd(cmd), node(node){}
     };
 
-    //方法二：使用栈，实现非递归；
+    //方法二：中序遍历非递归实现；
     vector<int> inorderTraversal(TreeNode* root) {
-        stack<Cmd> record;
+        stack<Command> record;
+        record.push(Command("go", root));
+        vector<int> res;
+
+        //root为空的情况
         if(root == NULL) return res;
 
-        //NOTE: 初始访问root结点；
-        record.push(Cmd("go", root));
         while(!record.empty()){
-            Cmd cmd = record.top();
+            Command cmd = record.top();
             record.pop();
 
-            if(cmd.msg == "print"){
+            //打印元素值；
+            if(cmd.cmd == "print")
                 res.push_back(cmd.node->val);
-            }else{
+            else{
+                //栈中存放：go,right -> print,root -> go,left;
                 if(cmd.node->right != NULL)
-                    record.push(Cmd("go", cmd.node->right));
-
-                record.push(Cmd("print", cmd.node));
-
+                    record.push(Command("go", cmd.node->right));
+                record.push(Command("print", cmd.node));
                 if(cmd.node->left != NULL)
-                    record.push(Cmd("go", cmd.node->left));
+                    record.push(Command("go", cmd.node->left));
             }
         }
 
