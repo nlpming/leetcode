@@ -4,6 +4,7 @@
 
 /*
  * 考点：链表 + 一次归并排序
+ * 难度：*
  * */
 class Solution {
 public:

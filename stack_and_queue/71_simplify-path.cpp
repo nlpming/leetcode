@@ -11,6 +11,7 @@ using namespace std;
 /*
  * 考点：字符串分割 + 栈
  * 难度：***
+ * 题名：71.简化路径
  * */
 class Solution {
 public:

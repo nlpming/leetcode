@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-stack_and_queue/127_word-ladder.o: stack_and_queue/127_word-ladder.cpp.o
+link_list/25_reverse-nodes-in-k-group_v2.o: link_list/25_reverse-nodes-in-k-group_v2.cpp.o
 
-.PHONY : stack_and_queue/127_word-ladder.o
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.o
 
 # target to build an object file
-stack_and_queue/127_word-ladder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o
-.PHONY : stack_and_queue/127_word-ladder.cpp.o
+link_list/25_reverse-nodes-in-k-group_v2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.o
 
-stack_and_queue/127_word-ladder.i: stack_and_queue/127_word-ladder.cpp.i
+link_list/25_reverse-nodes-in-k-group_v2.i: link_list/25_reverse-nodes-in-k-group_v2.cpp.i
 
-.PHONY : stack_and_queue/127_word-ladder.i
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.i
 
 # target to preprocess a source file
-stack_and_queue/127_word-ladder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.i
-.PHONY : stack_and_queue/127_word-ladder.cpp.i
+link_list/25_reverse-nodes-in-k-group_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.i
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.i
 
-stack_and_queue/127_word-ladder.s: stack_and_queue/127_word-ladder.cpp.s
+link_list/25_reverse-nodes-in-k-group_v2.s: link_list/25_reverse-nodes-in-k-group_v2.cpp.s
 
-.PHONY : stack_and_queue/127_word-ladder.s
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.s
 
 # target to generate assembly for a file
-stack_and_queue/127_word-ladder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.s
-.PHONY : stack_and_queue/127_word-ladder.cpp.s
+link_list/25_reverse-nodes-in-k-group_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.s
+.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... stack_and_queue/127_word-ladder.o"
-	@echo "... stack_and_queue/127_word-ladder.i"
-	@echo "... stack_and_queue/127_word-ladder.s"
+	@echo "... link_list/25_reverse-nodes-in-k-group_v2.o"
+	@echo "... link_list/25_reverse-nodes-in-k-group_v2.i"
+	@echo "... link_list/25_reverse-nodes-in-k-group_v2.s"
 .PHONY : help
 
 

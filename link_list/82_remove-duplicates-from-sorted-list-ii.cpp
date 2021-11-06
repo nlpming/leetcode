@@ -3,36 +3,35 @@
 //
 
 /*
- * 考点：链表 + 查找表
+ * 考点：链表 + 双指针；
  * 难度：**
  * */
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode *new_head = new ListNode(0);
-        new_head->next = head;
-        ListNode *cur = new_head, *next;
+        ListNode *newHead = new ListNode(0);
+        newHead->next = head;
 
-        unordered_set<int> record;
-        while(cur->next != NULL){
-            next = cur->next;
+        ListNode *p = newHead, *q, *s;
+        while(p->next != NULL){
+            q = p->next;
 
-            //NOTE: 是否在待删除的集合中；
-            if(record.find(next->val) != record.end()){
-                cur->next = next->next;
-                delete next;
-            }else{
-                //NOTE: 检查是否存在重复，如果有重复则放入set中；
-                if(next->next != NULL && next->val == next->next->val){
-                    if(record.find(next->val) == record.end()){
-                        record.insert(next->val);
-                    }
-                }else{
-                    cur = cur->next;
+            //存在重复结点；
+            if(q->next != NULL && p->next->val == q->next->val){
+                while(q != NULL && q->val == p->next->val)
+                    q = q->next;
+
+                //删除重复结点；
+                while(p->next != q){
+                    s = p->next;
+                    p->next = s->next;
+                    delete s;
                 }
+            }else{
+                p = p->next;
             }
         }
 
-        return new_head->next;
+        return newHead->next;
     }
 };

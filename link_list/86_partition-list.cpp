@@ -2,35 +2,33 @@
 // Created by 陈志明 on 2021/8/24.
 //
 
+/*
+ * 考点：链表；
+ * 难度：**
+ * */
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        ListNode *left, *left_rear, *right, *right_rear;
+        ListNode *left = new ListNode(0), *leftRear = left;
+        ListNode *right = new ListNode(0), *rightRear = right;
+
         ListNode *cur = head;
-
-        //NOTE: 新建两个头结点；
-        left = new ListNode(0);
-        right = new ListNode(0);
-        left_rear = left; right_rear = right;
-
-        //NOTE: left链表存放小于x的元素；right链表存放大于等于x的元素；
-        while(cur){
-            ListNode *s = new ListNode(cur->val);
-
+        while(cur != NULL){
             if(cur->val < x){
-                s->next = left_rear->next;
-                left_rear->next = s;
-                left_rear = s;
+                leftRear->next = cur;
+                leftRear = cur;
             }else{
-                s->next = right_rear->next;
-                right_rear->next = s;
-                right_rear = s;
+                rightRear->next = cur;
+                rightRear = cur;
             }
 
             cur = cur->next;
         }
 
-        left_rear->next = right->next;
+        //left,right拼接在一起；
+        leftRear->next = right->next;
+        rightRear->next = NULL;
+
         return left->next;
     }
 };

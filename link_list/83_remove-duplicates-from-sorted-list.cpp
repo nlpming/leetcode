@@ -2,22 +2,29 @@
 // Created by 陈志明 on 2021/8/24.
 //
 
+/*
+ * 考点：链表 + 双指针；
+ * 难度：*
+ * */
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode *cur = head, *next;
+        ListNode *newHead = new ListNode(0);
+        newHead->next = head;
 
-        //NOTE: 注意三个连续一样值的情况（例如：[1,1,1]）；
-        while(cur){
-            if(cur->next != NULL && cur->val == cur->next->val){
-                next = cur->next;
-                cur->next = next->next; //NOTE: 删除结点后，不应该将cur指向cur->next，需要再次判断；
-                delete next;
+        ListNode *p = newHead, *q;
+        while(p->next != NULL){
+            q = p->next;
+
+            //存在重复；
+            if(q->next != NULL && p->next->val == q->next->val){
+                p->next = q->next;
+                delete q;
             }else{
-                cur = cur->next;
+                p = p->next;
             }
         }
 
-        return head;
+        return newHead->next;
     }
 };

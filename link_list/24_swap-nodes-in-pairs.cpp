@@ -9,28 +9,22 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        ListNode *new_head = new ListNode(0);
-        new_head->next = head;
+        ListNode *newHead = new ListNode(0); //新增一个头结点；
+        newHead->next = head;
 
-        //NOTE：rear指向左边链表的最后一个；p指向右边断开链表的第一个；
-        ListNode *cur = head, *next, *p, *rear = new_head;
+        ListNode *cur = newHead, *p, *q;
+        while(cur->next != NULL && cur->next->next != NULL){
+            p = cur->next; //修改p,q的值；
+            q = p->next;
 
-        while(cur != NULL){
-            next = cur->next;
-            if(next != NULL){ //NOTE: 注意每一次都需判断指针是否为NULL；
-                p = next->next;
-                rear->next = next;
-                next->next = cur;
+            cur->next = q; //交换结点；
+            p->next = q->next;
+            q->next = p;
 
-                rear = cur;
-                rear->next = NULL;
-                cur = p;
-            }else{
-                rear->next = cur;
-                cur = cur->next;
-            }
+            cur = p; //修改cur指针；
+            if(cur == NULL) break;
         }
 
-        return new_head->next;
+        return newHead->next;
     }
 };
