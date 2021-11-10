@@ -13,26 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/143_reorder-list.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/148_sort-list.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/203_remove-linked-list-elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/203_remove-linked-list-elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/234_palindrome-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/234_palindrome-linked-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/237_delete-node-in-a-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/237_delete-node-in-a-linked-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/328_odd-even-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/328_odd-even-linked-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/445_add-two-numbers-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/445_add-two-numbers-ii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +60,11 @@
       <recent name="$PROJECT_DIR$/stack_and_queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/dynamic_programming/pics" />
       <recent name="$PROJECT_DIR$/recurion_and_backstracking/pics" />
       <recent name="$PROJECT_DIR$/binary_tree/pics" />
       <recent name="$PROJECT_DIR$/stack_and_queue/pics" />
-      <recent name="$PROJECT_DIR$/array_problem/pics" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
@@ -171,7 +152,7 @@
       <workItem from="1636008751223" duration="53000" />
       <workItem from="1636077883764" duration="4568000" />
       <workItem from="1636192608884" duration="7017000" />
-      <workItem from="1636531677413" duration="8868000" />
+      <workItem from="1636531677413" duration="9295000" />
     </task>
     <servers />
   </component>
@@ -188,7 +169,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp</url>
-          <line>13</line>
+          <line>17</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
