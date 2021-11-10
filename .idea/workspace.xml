@@ -14,12 +14,6 @@
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/28[not]_implement-strstr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/28_implement-strstr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/493[not]_reverse-pairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/493_reverse-pairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/75[not]_sort-colors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/75_sort-colors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/80[not]_remove-duplicates-from-sorted-array-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/80_remove-duplicates-from-sorted-array-ii.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_problem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/array_problem/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/binary_tree/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
@@ -27,30 +21,19 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/stack_and_queue/127_word-ladder.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/19_remove-nth-node-from-end-of-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/19_remove-nth-node-from-end-of-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/21_merge-two-sorted-lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/21_merge-two-sorted-lists.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/24_swap-nodes-in-pairs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/24_swap-nodes-in-pairs.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/2_add-two-numbers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/2_add-two-numbers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/82_remove-duplicates-from-sorted-list-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/82_remove-duplicates-from-sorted-list-ii.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/83_remove-duplicates-from-sorted-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/83_remove-duplicates-from-sorted-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/86_partition-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/86_partition-list.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/92_reverse-linked-list-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/92_reverse-linked-list-ii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/143_reorder-list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/148_sort-list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/203_remove-linked-list-elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/203_remove-linked-list-elements.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/206_reverse-linked-list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/234_palindrome-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/234_palindrome-linked-list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/237_delete-node-in-a-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/237_delete-node-in-a-linked-list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/328_odd-even-linked-list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/328_odd-even-linked-list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_list/445_add-two-numbers-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/445_add-two-numbers-ii.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recurion_and_backstracking/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/recurion_and_backstracking/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/199[not]_binary-tree-right-side-view.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/199_binary-tree-right-side-view.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/20_valid-parentheses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/20_valid-parentheses.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/23[not]_merge-k-sorted-lists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/23_merge-k-sorted-lists.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/347[not]_top-k-frequent-elements.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/347_top-k-frequent-elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/71[not]_simplify-path.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/71_simplify-path.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack_and_queue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,12 +87,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="workspace" RUN_TARGET_NAME="leetcode-c++" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="workspace" RUN_TARGET_NAME="leetcode-c++" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -187,7 +170,8 @@
       <workItem from="1635902309474" duration="9912000" />
       <workItem from="1636008751223" duration="53000" />
       <workItem from="1636077883764" duration="4568000" />
-      <workItem from="1636192608884" duration="5351000" />
+      <workItem from="1636192608884" duration="7017000" />
+      <workItem from="1636531677413" duration="8868000" />
     </task>
     <servers />
   </component>
@@ -206,6 +190,11 @@
           <url>file://$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp</url>
           <line>13</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/link_list/143_reorder-list.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

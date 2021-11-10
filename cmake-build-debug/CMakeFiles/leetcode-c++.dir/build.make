@@ -77,27 +77,27 @@ include CMakeFiles/leetcode-c++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode-c++.dir/flags.make
 
-CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
-CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o: ../link_list/25_reverse-nodes-in-k-group_v2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/25_reverse-nodes-in-k-group_v2.cpp
+CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o: CMakeFiles/leetcode-c++.dir/flags.make
+CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o: ../link_list/148_sort-list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o -c /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/148_sort-list.cpp
 
-CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/25_reverse-nodes-in-k-group_v2.cpp > CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.i
+CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/148_sort-list.cpp > CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.i
 
-CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/25_reverse-nodes-in-k-group_v2.cpp -o CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.s
+CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/148_sort-list.cpp -o CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.s
 
 # Object files for target leetcode-c++
 leetcode__c_______OBJECTS = \
-"CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o"
+"CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o"
 
 # External object files for target leetcode-c++
 leetcode__c_______EXTERNAL_OBJECTS =
 
-leetcode-c++: CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o
+leetcode-c++: CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o
 leetcode-c++: CMakeFiles/leetcode-c++.dir/build.make
 leetcode-c++: CMakeFiles/leetcode-c++.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leetcode-c++"

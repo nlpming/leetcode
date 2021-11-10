@@ -9,48 +9,27 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-        if(head == NULL) return head;
-        ListNode *cur = head, *next, *p;
+        ListNode *leftHead = new ListNode(0), *left = leftHead;
+        ListNode *rightHead = new ListNode(0), *right = rightHead;
 
-        //NOTE: 增加两个头结点odd, even；并建立 odd->next = even 这样的关系；
-        ListNode *odd = new ListNode(0);
-        head = odd;
-        ListNode *even = new ListNode(0);
-        odd->next = even;
-
+        int flag = 1;
+        ListNode *cur = head;
         while(cur != NULL){
-            next = cur->next;
-
-            if(next != NULL){
-                p = next->next;
-
-                //偶数index处理
-                next->next = even->next;
-                even->next = next;
-                even = next;
-
-                //奇数index处理；
-                cur->next = odd->next;
-                odd->next = cur;
-                odd = cur;
-
-                cur = p;
+            if(flag%2 != 0){
+                left->next= cur;
+                left = cur;
             }else{
-                //NOTE: 多一个奇数的情况；
-                cur->next = odd->next;
-                odd->next = cur;
-                odd = cur;
-                break;
+                right->next = cur;
+                right = cur;
             }
+
+            cur = cur->next;
+            flag++;
         }
 
-        if(odd->next != NULL){
-            ListNode *s = odd->next;
-            odd->next = odd->next->next;
-            delete s;
-        }
-
-        return head->next;
+        left->next = rightHead->next;
+        right->next = NULL;
+        return leftHead->next;
     }
 };
 

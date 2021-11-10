@@ -143,32 +143,32 @@ leetcode-c++/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/build
 .PHONY : leetcode-c++/fast
 
-link_list/25_reverse-nodes-in-k-group_v2.o: link_list/25_reverse-nodes-in-k-group_v2.cpp.o
+link_list/148_sort-list.o: link_list/148_sort-list.cpp.o
 
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.o
+.PHONY : link_list/148_sort-list.o
 
 # target to build an object file
-link_list/25_reverse-nodes-in-k-group_v2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.o
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.o
+link_list/148_sort-list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.o
+.PHONY : link_list/148_sort-list.cpp.o
 
-link_list/25_reverse-nodes-in-k-group_v2.i: link_list/25_reverse-nodes-in-k-group_v2.cpp.i
+link_list/148_sort-list.i: link_list/148_sort-list.cpp.i
 
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.i
+.PHONY : link_list/148_sort-list.i
 
 # target to preprocess a source file
-link_list/25_reverse-nodes-in-k-group_v2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.i
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.i
+link_list/148_sort-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.i
+.PHONY : link_list/148_sort-list.cpp.i
 
-link_list/25_reverse-nodes-in-k-group_v2.s: link_list/25_reverse-nodes-in-k-group_v2.cpp.s
+link_list/148_sort-list.s: link_list/148_sort-list.cpp.s
 
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.s
+.PHONY : link_list/148_sort-list.s
 
 # target to generate assembly for a file
-link_list/25_reverse-nodes-in-k-group_v2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/25_reverse-nodes-in-k-group_v2.cpp.s
-.PHONY : link_list/25_reverse-nodes-in-k-group_v2.cpp.s
+link_list/148_sort-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode-c++.dir/build.make CMakeFiles/leetcode-c++.dir/link_list/148_sort-list.cpp.s
+.PHONY : link_list/148_sort-list.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leetcode-c++"
-	@echo "... link_list/25_reverse-nodes-in-k-group_v2.o"
-	@echo "... link_list/25_reverse-nodes-in-k-group_v2.i"
-	@echo "... link_list/25_reverse-nodes-in-k-group_v2.s"
+	@echo "... link_list/148_sort-list.o"
+	@echo "... link_list/148_sort-list.i"
+	@echo "... link_list/148_sort-list.s"
 .PHONY : help
 
 

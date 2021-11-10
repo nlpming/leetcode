@@ -2,60 +2,64 @@
 // Created by 陈志明 on 2021/8/24.
 //
 
+/*
+ * 考点：栈 + 链表；
+ * 难度：**
+ * */
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-
         stack<int> s1, s2;
-        //NOTE: 先将链表数据存入栈中；【注意：使用栈存储两个链表中的数据】
-        while(l1){
-            s1.push(l1->val);
-            l1 = l1->next;
-        }
-        while(l2){
-            s2.push(l2->val);
-            l2 = l2->next;
+
+        //链表中元素放入栈中；
+        ListNode *cur = l1;
+        while(cur != NULL){
+            s1.push(cur->val);
+            cur = cur->next;
         }
 
-        //NOTE: 然后生成链表；
-        int flag = 0;
-        ListNode *s;
-        ListNode *head = new ListNode(0);
+        cur = l2;
+        while(cur != NULL){
+            s2.push(cur->val);
+            cur = cur->next;
+        }
 
+        ListNode *newHead = new ListNode(0), *rear = newHead;
+        int flag = 0, left, right;
         while(!s1.empty() || !s2.empty()){
-            int data = 0;
+            left = 0, right = 0;
             if(!s1.empty()){
-                data += s1.top(); //NOTE: 取栈顶元素；
-                s1.pop(); //NOTE: 出栈操作；
+                left = s1.top();
+                s1.pop();
             }
+
             if(!s2.empty()){
-                data += s2.top();
+                right = s2.top();
                 s2.pop();
             }
 
-            if(flag){
-                data += flag;
+            int val = left + right + flag;
+            //判断是否大于10；
+            if(val >= 10){
+                val = val%10;
+                flag = 1;
+            }else{
                 flag = 0;
             }
 
-            if(data < 10){
-                s = new ListNode(data);
-                s->next = head->next;
-                head->next = s;
-            }else{
-                s = new ListNode(data%10); //NOTE：注意和大于10的情况；
-                s->next = head->next;
-                head->next = s;
-                flag = 1;
-            }
+            //每次插入到头结点之后；
+            ListNode *s = new ListNode(val);
+            s->next = rear->next;
+            rear->next = s;
         }
 
-        if(flag){ //NOTE：注意此处的处理；还需要在进一位；
-            s = new ListNode(1);
-            s->next = head->next;
-            head->next = s;
+        //flag不为0的情况；
+        if(flag){
+            ListNode *s = new ListNode(flag);
+            s->next = rear->next;
+            rear->next = s;
         }
 
-        return head->next;
+        return newHead->next;
     }
 };

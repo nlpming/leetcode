@@ -16,7 +16,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(leetcode-c++ hash_table/16_3sum-closest.cpp)
 
 # 链表问题
-add_executable(leetcode-c++ link_list/25_reverse-nodes-in-k-group_v2.cpp)
+add_executable(leetcode-c++ link_list/148_sort-list.cpp)
 
 # 栈、队列、堆问题
 #add_executable(leetcode-c++ stack_and_queue/127_word-ladder.cpp)

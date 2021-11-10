@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/25.
 //
 
+/*
+ * 考点：链表 + 修改结点值；
+ * 难度：*
+ * */
 class Solution {
 public:
     void deleteNode(ListNode* node) {
