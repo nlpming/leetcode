@@ -2,6 +2,10 @@
 // Created by 陈志明 on 2021/8/24.
 //
 
+/*
+ * 考点：哈希表（考虑存放的内容）
+ * 难度：***
+ * */
 class Solution {
 public:
     long getDistance(vector<int> p1, vector<int> p2){
@@ -22,7 +26,7 @@ public:
 
             // 2. 计算得到最终的结果；
             for(unordered_map<int, int>::iterator it = record.begin(); it != record.end(); it++){
-                if(it->second >= 2){
+                if(it->second >= 2){ //NOTE：注意此处的判断；
                     res += it->second * (it->second - 1);
                 }
             }

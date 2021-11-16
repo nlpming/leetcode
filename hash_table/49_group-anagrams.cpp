@@ -9,30 +9,23 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-
-        vector<vector<string>> res;
-        unordered_map<string, int> record;
-
-        int idx = 0;
+        unordered_map<string, vector<string>> record;
         for(int i = 0; i < strs.size(); i++){
-            //NOTE: 存放原始字符串；
-            string origin_str(strs[i].begin(), strs[i].end());
+            string tmp(strs[i].begin(), strs[i].end());
+            sort(tmp.begin(), tmp.end()); //对字符串进行排序；
 
-            //NOTE: 对字符串进行排序；
-            sort(strs[i].begin(), strs[i].end());
-
-            if(record.find(strs[i]) != record.end()){
-                res[record[strs[i]]].push_back(origin_str);
+            if(record.find(tmp) == record.end()){
+                record[tmp] = vector<string>{strs[i]};
             }else{
-                vector<string> tmp;
-                tmp.push_back(origin_str);
-
-                res.push_back(tmp);
-                record[strs[i]] = idx;
-                idx++;
+                record[tmp].push_back(strs[i]);
             }
         }
 
+        //map的遍历；
+        vector<vector<string>> res;
+        for(unordered_map<string, vector<string>>::iterator it = record.begin(); it != record.end(); it++){
+            res.push_back(it->second);
+        }
         return res;
     }
 };

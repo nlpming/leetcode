@@ -5,34 +5,38 @@
 #include <unordered_set>
 using namespace std;
 
+/*
+ * 考点：哈希表
+ * 难度：**
+ * */
 class Solution {
 public:
-    bool isHappy(int n) {
-        unordered_set<int> record;
-        int x, sum = 0;
-
-        for(;;){
-            //获取n的每一位数，得到最终的计算结果；
-            while(n != 0){
-                x = n%10;
-                sum += x*x;
-                n = n/10;
-            }
-
-            if(sum == 1){
-                return true;
-            }
-
-            n = sum;
-            if(record.find(sum) == record.end()){
-                record.insert(sum);
-                sum = 0;
-            }else{
-                return false;
-            }
+    int helper(int n){
+        int sum = 0;
+        while(n != 0){
+            int mod = n%10;
+            sum += mod*mod;
+            n = n/10;
         }
 
-        return false;
+        return sum;
+    }
+
+    bool isHappy(int n) {
+        unordered_set<int> record; //记录是否产生无限循环；
+        while(true){
+            int tmp = helper(n);
+            if(tmp == 1)
+                return true;
+
+            //记录是否生成过；
+            if(record.find(tmp) != record.end())
+                return false;
+            else
+                record.insert(tmp);
+
+            n = tmp;
+        }
     }
 };
 

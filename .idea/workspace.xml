@@ -13,8 +13,30 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/25_reverse-nodes-in-k-group_v2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link_list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/link_list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/leetcode-c++.dir/link_list/148_sort-list_v2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leetcode-c++" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/workspace.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/15_3sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/15_3sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/16_3sum-closest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/18_4sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/18_4sum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/1_two-sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/202_happy-number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/202_happy-number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/219_contains-duplicate-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/219_contains-duplicate-ii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/220_contains-duplicate-iii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/220_contains-duplicate-iii.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/447_number-of-boomerangs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/447_number-of-boomerangs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/49_group-anagrams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/49_group-anagrams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack_and_queue/71_simplify-path.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/stack_and_queue/71_simplify-path.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +82,20 @@
       <recent name="$PROJECT_DIR$/stack_and_queue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hash_table/pics" />
       <recent name="$PROJECT_DIR$/link_list/pics" />
       <recent name="$PROJECT_DIR$/dynamic_programming/pics" />
       <recent name="$PROJECT_DIR$/recurion_and_backstracking/pics" />
       <recent name="$PROJECT_DIR$/binary_tree/pics" />
-      <recent name="$PROJECT_DIR$/stack_and_queue/pics" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="workspace" RUN_TARGET_NAME="leetcode-c++" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="workspace" RUN_TARGET_NAME="leetcode-c++" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -152,7 +174,8 @@
       <workItem from="1636008751223" duration="53000" />
       <workItem from="1636077883764" duration="4568000" />
       <workItem from="1636192608884" duration="7017000" />
-      <workItem from="1636531677413" duration="9295000" />
+      <workItem from="1636531677413" duration="9310000" />
+      <workItem from="1636950198802" duration="12498000" />
     </task>
     <servers />
   </component>
@@ -176,6 +199,16 @@
           <url>file://$PROJECT_DIR$/link_list/143_reorder-list.cpp</url>
           <line>32</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/hash_table/16_3sum-closest.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/hash_table/220_contains-duplicate-iii.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

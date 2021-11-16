@@ -10,63 +10,58 @@
 using namespace std;
 
 /*
- * 考点：三指针 + 哈希表；
+ * 考点：三指针；
  * */
 class Solution {
 public:
-    //两数之和: 数组已排好序
+    //两数之和
     vector<vector<int>> twoSum(vector<int> nums, int left, int right, int target){
         vector<vector<int>> res;
-        unordered_map<int, int> record; //记录两个数
-
         while(left < right){
             if(nums[left] + nums[right] == target){
-                if(record.find(nums[left]) == record.end() && record.find(nums[right]) == record.end()){
-                    vector<int> tmp;
-                    tmp.push_back(nums[left]);
-                    tmp.push_back(nums[right]);
-                    res.push_back(tmp);
-
-                    record[nums[left]] = nums[right];
-                }
-
+                res.push_back({nums[left], nums[right]});
                 left++;
                 right--;
-            }else if(nums[left] + nums[right] > target){
+
+                //left,right位置重复去重；
+                while(left < right && nums[left] == nums[left-1])
+                    left++;
+                while(left < right && nums[right] == nums[right+1])
+                    right--;
+            }else if(nums[left] + nums[right] > target)
                 right--;
-            }else{
+            else
                 left++;
-            }
         }
 
         return res;
     }
 
+    /*
+     * 解题思路：
+     * 1. 首先对数组进行排序；
+     * 2. 使用三指针：cur -> 指向当前位置；left -> cur+1；right -> nums.size()-1；
+     * 3. 将三数之和问题转换为两数之和；
+     * 4. 如何做到去重？
+     * （1）对数组进行排序；
+     * （2）当前位置cur，进行去重：nums[cur] == nums[cur-1]
+     * （3）left,right位置进行去重：如果找到答案，判断nums[left] == nums[left-1], nums[right] == nums[right+1]
+     * */
     vector<vector<int>> threeSum(vector<int>& nums) {
-        //解题思路：
-        // 1. 将三数之和转为两数之和；cur指向当前的数nums[i]，left,right指针分别指向cur之后的数组开始和结束位置；
-        // 2. nums[left...right]确定的新的数组，即求解两数之和 target - nums[i];
-        // 3. 如何保证不产生重复结果？
-        //（1）对数组nums进行排序；
-        //（2）当cur>0的时候，判断是否nums[cur] == nums[cur-1]；如果出现这种情况跳过；
-        //（3）求两数之和时判断：nums[left] == nums[left-1]；如果出现这种情况left++，并跳过；
-
+        //对数组进行排序
+        sort(nums.begin(), nums.end());
         vector<vector<int>> res;
 
-        sort(nums.begin(), nums.end());
         for(int cur = 0; cur < nums.size(); cur++){
-            if(cur > 0 && nums[cur] == nums[cur-1]){ //NOTE: 此处保证不会产生重复结果；
+            if(cur > 0 && nums[cur] == nums[cur-1]) //cur位置重复去重；
                 continue;
-            }
 
-            int left = cur+1;
-            int right = nums.size()-1;  //NOTE: 此处保证left, right不会越界
-
-            vector<vector<int>> tmp;
-            tmp = twoSum(nums, left, right, 0 - nums[cur]);
-            for(int k = 0; k < tmp.size(); k++){
-                tmp[k].push_back(nums[cur]);
-                res.push_back(tmp[k]);
+            int left = cur+1, right = nums.size()-1;
+            int target = -nums[cur];
+            vector<vector<int>> tmp = twoSum(nums, left, right, target);
+            for(int i = 0; i < tmp.size(); i++){
+                tmp[i].insert(tmp[i].begin(), nums[cur]); //cur插入到数组开始位置；
+                res.push_back(tmp[i]);
             }
         }
 
@@ -77,8 +72,11 @@ public:
 int main(){
 
     Solution s;
-    vector<int> nums = {0,0,0,0};
-    s.threeSum(nums);
+    vector<int> nums = {-1,0,1,2,-1,-4};
+
+    vector<vector<int>> res = s.threeSum(nums);
+    for(int i = 0; i < res.size(); i++)
+        printVector(res[i]);
 
     return 0;
 }

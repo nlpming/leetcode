@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/link_list.h
+/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/hash_table/220_contains-duplicate-iii.cpp
 iostream
 -
-cassert
--
-
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/148_sort-list_v2.cpp
-iostream
+set
 -
 vector
 -
-link_list.h
-/Users/chenzhiming/Documents/OneDrive/leetcode/leetcode-c++/link_list/link_list.h
 

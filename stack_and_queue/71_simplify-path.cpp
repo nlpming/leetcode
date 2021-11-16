@@ -23,6 +23,7 @@ public:
         str = str + pattern;
         int pos = str.find(pattern);
 
+        //注意此处，到达字符串末尾的判断；
         while(pos != str.npos){
             string tmp = str.substr(0, pos); //可能为空；
             res.push_back(tmp);

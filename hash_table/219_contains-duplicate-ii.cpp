@@ -3,35 +3,21 @@
 //
 
 /*
- * 考点：滑动窗口 + 哈希表；
+ * 考点：单指针 + 一次遍历 + 哈希表
  * 难度：**
  * 时间复杂度：O(n);
  * */
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        if(nums.size() == 0) return false;
-
-        int left = -1, right = 0;
-        unordered_set<int> record;
-        record.insert(nums[0]);
-
-        //解题思路：
-        // 1. record存放(left, right]中的元素；并且record中不存在重复元素；
-        // 2. 如果存在重复，则将left++, record.erase(nums[left])；并且重复元素不加入record中；
-        // 3. 如果不存在重复，则right++, record.insert(nums[right])；
-
-        while(right+1 < nums.size()){
-            if(record.find(nums[right+1]) == record.end()){
-                right++;
-                record.insert(nums[right]);
+        unordered_map<int, int> record; //数值 -> 位置；
+        for(int i = 0; i < nums.size(); i++){
+            if(record.find(nums[i]) == record.end()){
+                record[nums[i]] = i;
             }else{
-                left++;
-                record.erase(nums[left]);
-
-                if(nums[left] == nums[right+1] && abs(right+1-left) <= k){ //NOTE: 注意此处边界处理
+                if(abs(i - record[nums[i]]) <= k)
                     return true;
-                }
+                record[nums[i]] = i; //更新位置；
             }
         }
 
