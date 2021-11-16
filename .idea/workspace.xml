@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e40ffba-1679-4a06-a075-17cd10412ed2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/454_4sum-ii.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/454_4sum-ii.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash_table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,7 @@
       <workItem from="1636077883764" duration="4568000" />
       <workItem from="1636192608884" duration="7017000" />
       <workItem from="1636531677413" duration="9310000" />
-      <workItem from="1636950198802" duration="13238000" />
+      <workItem from="1636950198802" duration="13613000" />
     </task>
     <servers />
   </component>
